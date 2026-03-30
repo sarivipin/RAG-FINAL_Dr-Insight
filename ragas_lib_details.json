@@ -1,0 +1,49 @@
+{
+  "overall": {
+    "faithfulness": 0.9466666666666667,
+    "context_recall": 1.0,
+    "context_precision": 0.9333333332566667
+  },
+  "per_question": [
+    {
+      "question": "What are the symptoms of bacterial vaginosis?",
+      "answer": "The symptoms of bacterial vaginosis are usually:\n\n- a change in the colour or texture of your normal vaginal discharge\n- an unusual smell coming from your vagina or discharge\n\nYour discharge may become more watery. It might also look grey.\n\nThe unusual smell is sometimes compared to the smell of raw fish.\n\nSource: https://www2.hse.ie/conditions/bacterial-vaginosis-pregnancy/#symptoms-of-bacterial-vaginosis",
+      "reference": "The symptoms of bacterial vaginosis are usually:\n\n- a change in the colour or texture of your normal vaginal discharge\n- an unusual smell coming from your vagina or discharge\n\nYour discharge may become more watery. It might also look grey.\n\nThe unusual smell is sometimes compared to the smell of raw fish.",
+      "faithfulness": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
+    },
+    {
+      "question": "What causes varicose veins?",
+      "answer": "Varicose veins develop when the small valves inside the veins stop working properly. In a healthy vein, blood flows smoothly to the heart. The blood is prevented from flowing backwards by a series of tiny valves that open and close to let blood through. If the valves weaken or are damaged, the blood can flow backwards and collect in the vein. This will eventually cause the vein to be swollen and enlarged (varicose).\n\nYour chances of developing varicose veins are increased if you:\n\n- are female\n- have a close family member with varicose veins\n- are older\n- are overweight\n- have a job that involves long periods of standing\n- are pregnant\n\nSource: https://www2.hse.ie/conditions/varicose-veins/#causes-of-varicose-veins",
+      "reference": "Varicose veins develop when the small valves inside the veins stop working properly.\n\nIn a healthy vein, blood flows smoothly to the heart. The blood is prevented from flowing backwards by a series of tiny valves that open and close to let blood through.\n\nIf the valves weaken or are damaged, the blood can flow backwards and collect in the vein. This will eventually cause the vein to be swollen and enlarged (varicose).\n\nYour chances of developing varicose veins are increased if you:\n\n- are female\n- have a close family member with varicose veins\n- are older\n- are overweight\n- have a job that involves long periods of standing\n- are pregnant\n\nRead more about the causes of varicose veins",
+      "faithfulness": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
+    },
+    {
+      "question": "How can skin cancer (melanoma) be prevented?",
+      "answer": "Melanoma is not always preventable, but you can reduce your chances of developing it by avoiding getting sunburnt. You can help protect yourself from the sun by:\n\n- covering up with a hat, clothing and sunglasses\n- staying in the shade, especially between 11am and 3pm\n- putting sunscreen on any skin that is not covered\n\nDo not use sunbeds, sunlamps or sunbathe.\n\nSource:\nhttps://www2.hse.ie/conditions/skin-cancer-melanoma/#preventing-melanoma",
+      "reference": "Melanoma is not always preventable, but you can reduce your chances of developing it by avoiding getting sunburnt.\n\nYou can help protect yourself from the sun by:\n\n- covering up with a hat, clothing and sunglasses\n- staying in the shade, especially between 11am and 3pm\n- putting sunscreen on any skin that is not covered\n\nDo not use sunbeds, sunlamps or sunbathe.\n\nPreventing melanoma",
+      "faithfulness": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.8333333332916666
+    },
+    {
+      "question": "What is it like to live with type 1 diabetes?",
+      "answer": "Unfortunately, the provided context does not directly answer the question \"What is it like to live with type 1 diabetes?\".\n\nHowever, based on the available information, it seems that the context is focused on providing advice and information on managing type 1 diabetes, such as avoiding complications, managing blood glucose levels, understanding insulin, and accessing courses and support.\n\nTo answer the question, it would be necessary to consult additional sources or context that specifically addresses the experience of living with type 1 diabetes.\n\nSource links used:\n- https://www2.hse.ie/conditions/type-1-diabetes/#living-with-type-1-diabetes\n- https://www2.hse.ie/conditions/type-1-diabetes/#managing-blood-glucose-levels\n- https://www2.hse.ie/conditions/type-1-diabetes/#about-insulin\n- https://www2.hse.ie/conditions/type-1-diabetes/#courses-and-support",
+      "reference": "Advice on avoiding complications of type 1 diabetes",
+      "faithfulness": 0.8333333333333334,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
+    },
+    {
+      "question": "What should I know about mrsa and how you get mrsa?",
+      "answer": "MRSA is a common bug, especially for people who spend a lot of time in hospital. This is because lots of people carry superbugs in hospital, making it easier for them to spread. There's often no way of knowing when or where you picked it up.\n\nMRSA can live harmlessly on skin, in the nose, in wounds, and in leg ulcers. If they do not cause infection, bacteria can go away within days or months without you noticing. It can also grow under skin, leading to a skin, fat, or muscle infection.\n\nYou can get MRSA through:\n\n- Being in hospital or spending a lot of time in hospital\n- Being in close contact with someone who has MRSA\n- Touching surfaces or objects that have MRSA on them\n\nIf you know you carry MRSA, you should tell the doctor when you make an appointment and when you get to the surgery or hospital. You might need to stay in your own room or a ward with people who carry MRSA.\n\nMRSA is less likely to harm people who are well enough to be at home. You do not need to limit contact with anyone, and you also do not need to tell friends or family that you have MRSA.\n\nSource links:\n- https://www2.hse.ie/conditions/mrsa/#how-you-get-mrsa\n- https://www2.hse.ie/conditions/mrsa/#if-you-know-you-carry-mrsa",
+      "reference": "MRSA is a common bug, especially for people who spend a lot of time in hospital. This is because lots of people carry superbugs in hospital. This makes it easier for them to spread.\n\nThere's often no way of knowing when or where you picked it up.\n\nMRSA can live harmlessly:\n\n- on skin\n- in the nose\n- in wounds\n- in leg ulcers\n\nIf they do not cause infection, bacteria can go away within days or months without you noticing. It can also grow under skin. This can lead to a skin, fat or muscle infection.",
+      "faithfulness": 0.9,
+      "context_recall": 1.0,
+      "context_precision": 0.8333333332916666
+    }
+  ]
+}

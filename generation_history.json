@@ -1,0 +1,173 @@
+[
+  {
+    "timestamp": "2026-03-27T09:59:25.527065",
+    "query": "what is abdominal arotic aneurysm ?",
+    "detected_disease": null,
+    "detected_section": null,
+    "answer": "The abdominal aortic aneurysm (AAA) is a condition where the sides of the aorta get weak and swell outwards. It's not always clear why this happens, but the risk is higher as you get older. The risk factors for AAA include being a man age 60 or older, having a family member with an AAA, high blood pressure, and smoking.\n\nSymptoms of AAA often do not cause any obvious symptoms, and you may only find out you have an AAA after tests for other conditions. However, if you have a large AAA, your doctor will usually recommend surgery.\n\nTreatment for AAA depends on the size of the AAA and how fast it gets bigger. For small or medium AAAs, lifestyle changes and regular scans may be recommended, while for large AAAs, surgery is usually the treatment option.\n\nSource:\n- https://www2.hse.ie/conditions/abdominal-aortic-aneurysm/#whos-at-risk-of-an-abdominal-aortic-aneurysm\n- https://www2.hse.ie/conditions/abdominal-aortic-aneurysm/#symptoms-of-an-abdominal-aortic-aneurysm\n- https://www2.hse.ie/conditions/abdominal-aortic-aneurysm/#tests-for-an-abdominal-aortic-aneurysm\n- https://www2.hse.ie/conditions/abdominal-aortic-aneurysm/#treatment-for-an-abdominal-aortic-aneurysm",
+    "sources": [
+      {
+        "question_hash": "70e0f4535eccd8c0",
+        "question": "Who is at risk of abdominal aortic aneurysm?",
+        "disease": "Abdominal aortic aneurysm",
+        "section": "risk_factors",
+        "source_url": "https://www2.hse.ie/conditions/abdominal-aortic-aneurysm/#whos-at-risk-of-an-abdominal-aortic-aneurysm",
+        "rerank_score": 1.9560827016830444,
+        "content": "# Abdominal aortic aneurysm\n\n## Question\nWho is at risk of abdominal aortic aneurysm?\n\n### Answer\nAn abdominal aortic aneurysm (AAA) happens if the sides of the aorta get weak and swell outwards.\n\nIt's not always clear why this happens. But the risk is higher as you get older.\n\nYou may be more at risk if you:\n\n- are a man age 60 or older\n- are a woman age 65 or older\n- have a family member with an AAA\n- have high blood pressure\n- have chronic obstructive pulmonary disease\n- have high blood cholesterol\n- have cardiovascular disease, such as heart disease or a history of stroke\n- smoke or used to smoke\n- have a condition called Marfan’s syndrome\n- have a connective tissue disease - for example, Ehlers-Danlos syndrome\n\nContact a GP if you're worried you may be at risk of an AAA. They may refer you for a scan and suggest lifestyle changes to reduce your risk.\n\n**Section:** risk_factors\n\n**Source:** https://www2.hse.ie/conditions/abdominal-aortic-aneurysm/#whos-at-risk-of-an-abdominal-aortic-aneurysm"
+      },
+      {
+        "question_hash": "4a3cae74d243bd8f",
+        "question": "What are the symptoms of abdominal aortic aneurysm?",
+        "disease": "Abdominal aortic aneurysm",
+        "section": "symptoms",
+        "source_url": "https://www2.hse.ie/conditions/abdominal-aortic-aneurysm/#symptoms-of-an-abdominal-aortic-aneurysm",
+        "rerank_score": 1.8418391942977905,
+        "content": "# Abdominal aortic aneurysm\n\n## Question\nWhat are the symptoms of abdominal aortic aneurysm?\n\n### Answer\nAn abdominal aortic aneurysm (AAA) often does not cause any obvious symptoms.\n\nYou may only find out you have an AAA after tests for other conditions.\n\n**Section:** symptoms\n\n**Source:** https://www2.hse.ie/conditions/abdominal-aortic-aneurysm/#symptoms-of-an-abdominal-aortic-aneurysm"
+      },
+      {
+        "question_hash": "f75715b5bcedb535",
+        "question": "How is abdominal aortic aneurysm diagnosed?",
+        "disease": "Abdominal aortic aneurysm",
+        "section": "tests",
+        "source_url": "https://www2.hse.ie/conditions/abdominal-aortic-aneurysm/#tests-for-an-abdominal-aortic-aneurysm",
+        "rerank_score": 1.1535214185714722,
+        "content": "# Abdominal aortic aneurysm\n\n## Question\nHow is abdominal aortic aneurysm diagnosed?\n\n### Answer\nIf your GP thinks you may have an abdominal aortic aneurysm (AAA), they will refer you for an ultrasound. They may also refer you to a doctor that specialises in blood vessels.\n\nDuring an ultrasound, a small device is placed on your tummy. The device is connected to a screen that shows images of the inside of your tummy.\n\nThe specialist doing the ultrasound can see if you have an AAA and how big it is. They will send a report to your doctor.\n\nIf you have an AAA, your doctor will tell you if it is:\n\n- small - 3cm to 4.4cm or smaller\n- medium - 4.5cm to 5.4cm\n- large - 5.5cm or bigger\n\nAsk your doctor if you're not sure what size your AAA is.\n\n**Section:** tests\n\n**Source:** https://www2.hse.ie/conditions/abdominal-aortic-aneurysm/#tests-for-an-abdominal-aortic-aneurysm"
+      },
+      {
+        "question_hash": "b02d4680248ab98f",
+        "question": "What is the treatment for abdominal aortic aneurysm?",
+        "disease": "Abdominal aortic aneurysm",
+        "section": "treatment",
+        "source_url": "https://www2.hse.ie/conditions/abdominal-aortic-aneurysm/#treatment-for-an-abdominal-aortic-aneurysm",
+        "rerank_score": 0.41692233085632324,
+        "content": "# Abdominal aortic aneurysm\n\n## Question\nWhat is the treatment for abdominal aortic aneurysm?\n\n### Answer\nTreatment for an abdominal aortic aneurysm (AAA) depends on:\n\n- the size of the AAA\n- how fast it gets bigger\n- if you have other health problems\n\nIf you have a small or medium AAA, your doctor may recommend lifestyle changes and regular scans to check the AAA. They will tell you how often you need to have scans.\n\nThey may also prescribe medicines if you have high blood pressure .\n\nIf you have a large AAA, your doctor will usually recommend surgery.\n\nTreatment for an AAA\n\n**Section:** treatment\n\n**Source:** https://www2.hse.ie/conditions/abdominal-aortic-aneurysm/#treatment-for-an-abdominal-aortic-aneurysm"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-28T14:12:50.412363",
+    "query": "Abdiminal aortic aneursym sypmtoms?",
+    "detected_disease": null,
+    "detected_section": null,
+    "answer": "I could not find strong enough evidence in the retrieved documents to answer that reliably. Try asking with the disease name and what you want to know, such as symptoms, causes, diagnosis, or treatment.",
+    "sources": [
+      {
+        "question_hash": "9e344d749569e787",
+        "question": "Who is at risk of abdominal aortic aneurysm?",
+        "disease": "Abdominal aortic aneurysm",
+        "section": "risk_factors",
+        "source_url": "https://www2.hse.ie/conditions/abdominal-aortic-aneurysm/#whos-at-risk-of-an-abdominal-aortic-aneurysm",
+        "rerank_score": -3.423579692840576,
+        "content": "# Abdominal aortic aneurysm\n\n## Question\nWho is at risk of abdominal aortic aneurysm?\n\n### Answer\nAn abdominal aortic aneurysm (AAA) happens if the sides of the aorta get weak and swell outwards.\n\nIt's not always clear why this happens. But the risk is higher as you get older.\n\nYou may be more at risk if you:\n\n- are a man age 60 or older\n- are a woman age 65 or older\n- have a family member with an AAA\n- have high blood pressure\n- have chronic obstructive pulmonary disease\n- have high blood cholesterol\n- have cardiovascular disease, such as heart disease or a history of stroke\n- smoke or used to smoke\n- have a condition called Marfan’s syndrome\n- have a connective tissue disease - for example, Ehlers-Danlos syndrome\n\nContact a GP if you're worried you may be at risk of an AAA. They may refer you for a scan and suggest lifestyle changes to reduce your risk.\n\n**Section:** risk_factors\n\n**Source:** https://www2.hse.ie/conditions/abdominal-aortic-aneurysm/#whos-at-risk-of-an-abdominal-aortic-aneurysm"
+      },
+      {
+        "question_hash": "f95328866ba05728",
+        "question": "How is abdominal aortic aneurysm diagnosed?",
+        "disease": "Abdominal aortic aneurysm",
+        "section": "tests",
+        "source_url": "https://www2.hse.ie/conditions/abdominal-aortic-aneurysm/#tests-for-an-abdominal-aortic-aneurysm",
+        "rerank_score": -4.125527858734131,
+        "content": "# Abdominal aortic aneurysm\n\n## Question\nHow is abdominal aortic aneurysm diagnosed?\n\n### Answer\nIf your GP thinks you may have an abdominal aortic aneurysm (AAA), they will refer you for an ultrasound. They may also refer you to a doctor that specialises in blood vessels.\n\nDuring an ultrasound, a small device is placed on your tummy. The device is connected to a screen that shows images of the inside of your tummy.\n\nThe specialist doing the ultrasound can see if you have an AAA and how big it is. They will send a report to your doctor.\n\nIf you have an AAA, your doctor will tell you if it is:\n\n- small - 3cm to 4.4cm or smaller\n- medium - 4.5cm to 5.4cm\n- large - 5.5cm or bigger\n\nAsk your doctor if you're not sure what size your AAA is.\n\n**Section:** tests\n\n**Source:** https://www2.hse.ie/conditions/abdominal-aortic-aneurysm/#tests-for-an-abdominal-aortic-aneurysm"
+      },
+      {
+        "question_hash": "d6ae7eb675c70b0d",
+        "question": "What is the treatment for abdominal aortic aneurysm?",
+        "disease": "Abdominal aortic aneurysm",
+        "section": "treatment",
+        "source_url": "https://www2.hse.ie/conditions/abdominal-aortic-aneurysm/#treatment-for-an-abdominal-aortic-aneurysm",
+        "rerank_score": -5.929917335510254,
+        "content": "# Abdominal aortic aneurysm\n\n## Question\nWhat is the treatment for abdominal aortic aneurysm?\n\n### Answer\nTreatment for an abdominal aortic aneurysm (AAA) depends on:\n\n- the size of the AAA\n- how fast it gets bigger\n- if you have other health problems\n\nIf you have a small or medium AAA, your doctor may recommend lifestyle changes and regular scans to check the AAA. They will tell you how often you need to have scans.\n\nThey may also prescribe medicines if you have high blood pressure .\n\nIf you have a large AAA, your doctor will usually recommend surgery.\n\nTreatment for an AAA\n\n**Section:** treatment\n\n**Source:** https://www2.hse.ie/conditions/abdominal-aortic-aneurysm/#treatment-for-an-abdominal-aortic-aneurysm"
+      },
+      {
+        "question_hash": "2457cfe0158803e4",
+        "question": "What should I know about aortic dissection and types of aortic dissection?",
+        "disease": "Aortic dissection",
+        "section": "types_of_aortic_dissection",
+        "source_url": "https://www2.hse.ie/conditions/aortic-dissection/#types-of-aortic-dissection",
+        "rerank_score": -7.632664680480957,
+        "content": "# Aortic dissection\n\n## Question\nWhat should I know about aortic dissection and types of aortic dissection?\n\n### Answer\nAortic dissections are divided into 2 types. The type depends on which part of the aorta is affected.\n\nType A aortic dissection\nThis involves a tear in the part of the aorta where it exits the heart in the front of the chest. The tear may extend into the aorta in the back of the chest and may extend into the tummy (abdomen).\n\nThis involves a tear in the part of the aorta where it exits the heart in the front of the chest. The tear may extend into the aorta in the back of the chest and may extend into the tummy (abdomen).\n\nType B aortic dissection\nThis involves a tear in the aorta in the back of the chest only. The tear may also extend into the tummy. This is less serious. But it can on some occasions cause blockage of blood flow to kidney, intestine or legs.\n\n**Section:** types_of_aortic_dissection\n\n**Source:** https://www2.hse.ie/conditions/aortic-dissection/#types-of-aortic-dissection\n\n# Aortic dissection\n\n## Question\nWhat should I know about aortic dissection and types of aortic dissection?\n\n### Answer\nThis involves a tear in the aorta in the back of the chest only. The tear may also extend into the tummy. This is less serious. But it can on some occasions cause blockage of blood flow to kidney, intestine or legs.\n\n**Section:** types_of_aortic_dissection\n\n**Source:** https://www2.hse.ie/conditions/aortic-dissection/#types-of-aortic-dissection"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-28T14:13:44.122841",
+    "query": "python3 evaluation.py",
+    "detected_disease": null,
+    "detected_section": null,
+    "answer": "I could not find strong enough evidence in the retrieved documents to answer that reliably. Try asking with the disease name and what you want to know, such as symptoms, causes, diagnosis, or treatment.",
+    "sources": [
+      {
+        "question_hash": "7579c3cac912a1da",
+        "question": "What should I know about pulmonary rehabilitation - exercise and education programme and the pulmonary rehabilitation programme?",
+        "disease": "Pulmonary rehabilitation - exercise and education programme",
+        "section": "the_pulmonary_rehabilitation_programme",
+        "source_url": "https://www2.hse.ie/conditions/pulmonary-rehabilitation-exercise-and-education-programme/#the-pulmonary-rehabilitation-programme",
+        "rerank_score": -11.308961868286133,
+        "content": "# Pulmonary rehabilitation - exercise and education programme\n\n## Question\nWhat should I know about pulmonary rehabilitation - exercise and education programme and the pulmonary rehabilitation programme?\n\n### Answer\nThe PR team will assess your health and abilities. They will ask questions to understand you and your body so they can help you get the best out of the course.\n\nAn exercise programme is designed for you to suit your level of fitness. The programme also includes educational classes on different areas of respiratory care.\n\nThese include:\n\n- breathing techniques\n- managing anxiety\n- relaxation\n- medicines management\n- self-management plans\n- home exercise plans\n- dietary advice\n- saving your energy\n\nExercises may include gentle walking and exercises you do sitting down, or faster walking, step-ups and using an exercise bike.\n\n**Section:** the_pulmonary_rehabilitation_programme\n\n**Source:** https://www2.hse.ie/conditions/pulmonary-rehabilitation-exercise-and-education-programme/#the-pulmonary-rehabilitation-programme\n\n# Pulmonary rehabilitation - exercise and education programme\n\n## Question\nWhat should I know about pulmonary rehabilitation - exercise and education programme and the pulmonary rehabilitation programme?\n\n### Answer\nIn a group setting, you will do exercises based on your own ability. You will not be expected to keep up with others as everyone has a different levels of fitness and symptoms.\n\nThe level of exercise is increased gradually over the course of the programme and as you become fitter. By the end of the programme, you should be less short of breath and better able to cope with your normal daily activities.\n\nWhen the course finishes, the physiotherapist or nurse will do another assessment. This is to see how it compares with the one taken at the beginning of the course. They will share this information with you and the person who referred you to the programme.\n\n**Section:** the_pulmonary_rehabilitation_programme\n\n**Source:** https://www2.hse.ie/conditions/pulmonary-rehabilitation-exercise-and-education-programme/#the-pulmonary-rehabilitation-programme"
+      },
+      {
+        "question_hash": "45ecd27595ae15e1",
+        "question": "How is dementia with lewy bodies diagnosed?",
+        "disease": "Dementia with Lewy bodies",
+        "section": "tests",
+        "source_url": "https://www2.hse.ie/conditions/dementia-lewy-bodies/#tests-for-dementia-with-lewy-bodies",
+        "rerank_score": -11.362665176391602,
+        "content": "# Dementia with Lewy bodies\n\n## Question\nHow is dementia with lewy bodies diagnosed?\n\n### Answer\nThere is no single test for dementia with Lewy bodies.\n\nBut you will probably have:\n\n- an assessment of your symptoms\n- an assessment of your mental abilities - this usually involves tasks and questions\n- blood tests to rule out other conditions with similar symptoms\n- brain scans to detect signs of dementia or other problems with the brain\n\n**Section:** tests\n\n**Source:** https://www2.hse.ie/conditions/dementia-lewy-bodies/#tests-for-dementia-with-lewy-bodies"
+      },
+      {
+        "question_hash": "05c25042768dacfb",
+        "question": "What should I know about cystoscopy and why you may have a cystoscopy?",
+        "disease": "Cystoscopy",
+        "section": "why_you_may_have_a_cystoscopy",
+        "source_url": "https://www2.hse.ie/conditions/cystoscopy/#why-you-may-have-a-cystoscopy",
+        "rerank_score": -11.395376205444336,
+        "content": "# Cystoscopy\n\n## Question\nWhat should I know about cystoscopy and why you may have a cystoscopy?\n\n### Answer\nA cystoscopy can be used to look for and treat problems in your bladder or urethra.\n\nIt can be used to check for the cause of problems such as:\n\n- blood in your pee\n- frequent urinary tract infections (UTIs)\n- problems peeing\n- long-lasting pelvic pain\n\nA cystoscopy can be used to do treatments such as:\n\n- removing small bladder stones\n- inserting or removing a stent (a small tube used to treat blockages)\n- injecting medicine into your bladder\n- removing a sample of tissue for testing in a laboratory (a biopsy)\n\n**Section:** why_you_may_have_a_cystoscopy\n\n**Source:** https://www2.hse.ie/conditions/cystoscopy/#why-you-may-have-a-cystoscopy"
+      },
+      {
+        "question_hash": "b101b2e26bb4f6ef",
+        "question": "What should I know about cystoscopy and types of cystoscopy?",
+        "disease": "Cystoscopy",
+        "section": "types_of_cystoscopy",
+        "source_url": "https://www2.hse.ie/conditions/cystoscopy/#types-of-cystoscopy",
+        "rerank_score": -11.40668773651123,
+        "content": "# Cystoscopy\n\n## Question\nWhat should I know about cystoscopy and types of cystoscopy?\n\n### Answer\nThere are 2 types of cystoscopy:\n\n- flexible cystoscopy - a thin, bendy cystoscope is used\n- rigid cystoscopy - a slightly wider cystoscope that does not bend is used\n\nA flexible cystoscopy is usually done if the test is just to look inside your bladder. You stay awake while it's done.\n\nA rigid cystoscopy may be done to treat a particular problem in your bladder. You'll either be given a general anaesthetic (you sleep) or spinal anaesthetic (the lower half of your body is numbed).\n\nAsk your doctor or nurse which type you're going to have.\n\n**Section:** types_of_cystoscopy\n\n**Source:** https://www2.hse.ie/conditions/cystoscopy/#types-of-cystoscopy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-28T14:14:10.983789",
+    "query": "What should I know about cystoscopy and types of cystoscopy?",
+    "detected_disease": "Cystoscopy",
+    "detected_section": null,
+    "answer": "Based on the provided context, here are the key points about cystoscopy and its types:\n\n1. There are two main types of cystoscopy:\n   - Flexible cystoscopy: a thin, bendy cystoscope is used for initial bladder inspections.\n   - Rigid cystoscopy: a slightly wider cystoscope that does not bend is used for more complex procedures or to treat specific problems in the bladder.\n\n2. The choice between flexible and rigid cystoscopy depends on the purpose of the procedure and your individual needs, as discussed with your doctor or nurse.\n\n3. Cystoscopy can be performed to:\n   - Investigate symptoms such as blood in urine, frequent UTIs, or pelvic pain.\n   - Remove small bladder stones or insert/remove a stent for blockage treatment.\n   - Inject medicine into the bladder or remove tissue samples (biopsy) for laboratory testing.\n\n4. Recovery from cystoscopy typically involves:\n   - Quick recovery time, usually leaving hospital later the same day for flexible procedures and 2 days after rigid procedures.\n   - Normal activities can be resumed as soon as you feel able to.\n   - Temporary discomfort when peeing and some blood in urine may occur for a short period.\n\nFor more information on cystoscopy, its types, and recovery, please refer to the provided source links:\n\n- https://www2.hse.ie/conditions/cystoscopy/#types-of-cystoscopy\n- https://www2.hse.ie/conditions/cystoscopy/#why-you-may-have-a-cystoscopy\n- https://www2.hse.ie/conditions/cystoscopy/#recovering-from-a-cystoscopy",
+    "sources": [
+      {
+        "question_hash": "b101b2e26bb4f6ef",
+        "question": "What should I know about cystoscopy and types of cystoscopy?",
+        "disease": "Cystoscopy",
+        "section": "types_of_cystoscopy",
+        "source_url": "https://www2.hse.ie/conditions/cystoscopy/#types-of-cystoscopy",
+        "rerank_score": 13.180566787719727,
+        "content": "# Cystoscopy\n\n## Question\nWhat should I know about cystoscopy and types of cystoscopy?\n\n### Answer\nThere are 2 types of cystoscopy:\n\n- flexible cystoscopy - a thin, bendy cystoscope is used\n- rigid cystoscopy - a slightly wider cystoscope that does not bend is used\n\nA flexible cystoscopy is usually done if the test is just to look inside your bladder. You stay awake while it's done.\n\nA rigid cystoscopy may be done to treat a particular problem in your bladder. You'll either be given a general anaesthetic (you sleep) or spinal anaesthetic (the lower half of your body is numbed).\n\nAsk your doctor or nurse which type you're going to have.\n\n**Section:** types_of_cystoscopy\n\n**Source:** https://www2.hse.ie/conditions/cystoscopy/#types-of-cystoscopy"
+      },
+      {
+        "question_hash": "05c25042768dacfb",
+        "question": "What should I know about cystoscopy and why you may have a cystoscopy?",
+        "disease": "Cystoscopy",
+        "section": "why_you_may_have_a_cystoscopy",
+        "source_url": "https://www2.hse.ie/conditions/cystoscopy/#why-you-may-have-a-cystoscopy",
+        "rerank_score": 7.607542991638184,
+        "content": "# Cystoscopy\n\n## Question\nWhat should I know about cystoscopy and why you may have a cystoscopy?\n\n### Answer\nA cystoscopy can be used to look for and treat problems in your bladder or urethra.\n\nIt can be used to check for the cause of problems such as:\n\n- blood in your pee\n- frequent urinary tract infections (UTIs)\n- problems peeing\n- long-lasting pelvic pain\n\nA cystoscopy can be used to do treatments such as:\n\n- removing small bladder stones\n- inserting or removing a stent (a small tube used to treat blockages)\n- injecting medicine into your bladder\n- removing a sample of tissue for testing in a laboratory (a biopsy)\n\n**Section:** why_you_may_have_a_cystoscopy\n\n**Source:** https://www2.hse.ie/conditions/cystoscopy/#why-you-may-have-a-cystoscopy"
+      },
+      {
+        "question_hash": "e38779f2242ed5e5",
+        "question": "What should I know about cystoscopy and recovering from a cystoscopy?",
+        "disease": "Cystoscopy",
+        "section": "recovering_from_a_cystoscopy",
+        "source_url": "https://www2.hse.ie/conditions/cystoscopy/#recovering-from-a-cystoscopy",
+        "rerank_score": 5.25868034362793,
+        "content": "# Cystoscopy\n\n## Question\nWhat should I know about cystoscopy and recovering from a cystoscopy?\n\n### Answer\nMost people recover quickly from a cystoscopy.\n\nYou can usually leave hospital:\n\n- later the same day if you had a flexible cystoscopy\n- 2 days after a rigid cystoscopy\n\nYou can usually return to your normal activities as soon as you feel able to.\n\nIt's normal to have discomfort when peeing and some blood in your pee for a day or 2.\n\n**Section:** recovering_from_a_cystoscopy\n\n**Source:** https://www2.hse.ie/conditions/cystoscopy/#recovering-from-a-cystoscopy"
+      }
+    ]
+  }
+]

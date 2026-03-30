@@ -1,0 +1,132 @@
+{
+  "query": "What should I know about mrsa and how you get mrsa?",
+  "detected_section": null,
+  "detected_disease": "MRSA",
+  "num_candidates": 7,
+  "candidates": [
+    {
+      "chunk_id": "b4eed6fc8587624e_p1",
+      "question_hash": "b4eed6fc8587624e",
+      "question": "What should I know about mrsa and how you get mrsa?",
+      "disease": "MRSA",
+      "section": "how_you_get_mrsa",
+      "source_url": "https://www2.hse.ie/conditions/mrsa/#how-you-get-mrsa",
+      "pre_rerank_boost": 4.0,
+      "cross_encoder_score": 8.873228073120117,
+      "rerank_score": 12.873228073120117,
+      "preview": "# MRSA\n\n## Question\nWhat should I know about mrsa and how you get mrsa?\n\n### Answer\nMRSA is a common bug, especially for people who spend a lot of time in hospital. This is because lots of people carry superbugs in hospital. This makes it easier for them to spread.\n\nThere's often no way of knowing when or where you picked it up.\n\nMRSA can live harmlessly:\n\n- on skin\n- in the nose\n- in wounds\n- in "
+    },
+    {
+      "chunk_id": "fd5480953955c066_p1",
+      "question_hash": "fd5480953955c066",
+      "question": "What should I know about mrsa and diagnosing mrsa?",
+      "disease": "MRSA",
+      "section": "diagnosing_mrsa",
+      "source_url": "https://www2.hse.ie/conditions/mrsa/#diagnosing-mrsa",
+      "pre_rerank_boost": 2.0,
+      "cross_encoder_score": 7.797739028930664,
+      "rerank_score": 9.797739028930664,
+      "preview": "# MRSA\n\n## Question\nWhat should I know about mrsa and diagnosing mrsa?\n\n### Answer\nYou might need to give samples if you're in hospital or going into hospital.\n\nA doctor or nurse will take samples from your skin, nose and other parts of the body.\n\nThe sample is then sent to a lab for testing. You should get the result back within a few days.\n\n**Section:** diagnosing_mrsa\n\n**Source:** https://www2."
+    },
+    {
+      "chunk_id": "4cd4713a59c5084f_p1",
+      "question_hash": "4cd4713a59c5084f",
+      "question": "What should I know about mrsa and if you know you carry mrsa?",
+      "disease": "MRSA",
+      "section": "if_you_know_you_carry_mrsa",
+      "source_url": "https://www2.hse.ie/conditions/mrsa/#if-you-know-you-carry-mrsa",
+      "pre_rerank_boost": 2.0,
+      "cross_encoder_score": 7.4930338859558105,
+      "rerank_score": 9.49303388595581,
+      "preview": "# MRSA\n\n## Question\nWhat should I know about mrsa and if you know you carry mrsa?\n\n### Answer\nTell the doctor when you make an appointment and when you get to the surgery or hospital. If you're in hospital, you might need to stay in your own room or a ward with people who carry MRSA.\n\nIf you carry MRSA, this should not get in the way of your normal home life. MRSA is less likely to harm people who"
+    },
+    {
+      "chunk_id": "de42a88f71c61d73_p1",
+      "question_hash": "de42a88f71c61d73",
+      "question": "What should I know about mrsa and treatment of mrsa?",
+      "disease": "MRSA",
+      "section": "treatment_of_mrsa",
+      "source_url": "https://www2.hse.ie/conditions/mrsa/#treatment-of-mrsa",
+      "pre_rerank_boost": 2.0,
+      "cross_encoder_score": 7.1378374099731445,
+      "rerank_score": 9.137837409973145,
+      "preview": "# MRSA\n\n## Question\nWhat should I know about mrsa and treatment of mrsa?\n\n### Answer\nIf you carry MRSA, you may need treatment to remove it.\n\nThis usually involves washing with antibacterial shampoo and putting antibacterial cream in your nose.\n\nAny skin irritation from treatment products should be mild. If you get a rash, stop treatment and ask your GP or pharmacist for advice.\n\nDuring treatment,"
+    },
+    {
+      "chunk_id": "badbcf3d07e75dcd_p1",
+      "question_hash": "badbcf3d07e75dcd",
+      "question": "What causes mrsa?",
+      "disease": "MRSA",
+      "section": "causes",
+      "source_url": "https://www2.hse.ie/conditions/mrsa/#causes-of-mrsa-infection",
+      "pre_rerank_boost": 2.0,
+      "cross_encoder_score": 2.8434152603149414,
+      "rerank_score": 4.843415260314941,
+      "preview": "# MRSA\n\n## Question\nWhat causes mrsa?\n\n### Answer\nMRSA are more likely to cause an infection for people who are already very sick.\n\nHealthy people are not usually at risk of MRSA infections. This includes children and pregnant women.\n\nThe following things can put you at higher risk of MRSA infection:\n\n- major surgery\n- having a medical device inserted into your body, such as a catheter or IV line\n"
+    },
+    {
+      "chunk_id": "8b8a01a8f161d121_p1",
+      "question_hash": "8b8a01a8f161d121",
+      "question": "How can mrsa be prevented?",
+      "disease": "MRSA",
+      "section": "prevention",
+      "source_url": "https://www2.hse.ie/conditions/mrsa/#preventing-the-spread-of-mrsa",
+      "pre_rerank_boost": 2.0,
+      "cross_encoder_score": 1.6768009662628174,
+      "rerank_score": 3.6768009662628174,
+      "preview": "# MRSA\n\n## Question\nHow can mrsa be prevented?\n\n### Answer\nLower the risk of picking up and spreading MRSA in hospitals by:\n\n- cleaning your hands often\n- using your own soap, flannel, sponge and razor\n- keeping your fingernails cut short to stop bacteria from building up under your nails\n\nIf you are in hospital:\n\n- limit contact with patients and keep away from their bed space\n- avoid sharing foo"
+    },
+    {
+      "chunk_id": "81bb9b727f3e1f48_p1",
+      "question_hash": "81bb9b727f3e1f48",
+      "question": "What are the symptoms of mrsa?",
+      "disease": "MRSA",
+      "section": "symptoms",
+      "source_url": "https://www2.hse.ie/conditions/mrsa/#symptoms-of-mrsa-infection",
+      "pre_rerank_boost": 2.0,
+      "cross_encoder_score": 0.6510248184204102,
+      "rerank_score": 2.65102481842041,
+      "preview": "# MRSA\n\n## Question\nWhat are the symptoms of mrsa?\n\n### Answer\nSymptoms of serious MRSA infection include:\n\n- a high temperature (fever) of 38 degrees Celsius or above\n- aches and pains\n- chills\n- tiredness\n- weakness\n- confusion\n\nIf MRSA grow under the skin, this can lead to a skin, fat or muscle infection.\n\nSymptoms include:\n\n- redness\n- swelling\n- warmth\n- pain and sometimes pus from the skin\n\n"
+    }
+  ],
+  "selected_question_groups": [
+    {
+      "question_hash": "b4eed6fc8587624e",
+      "question": "What should I know about mrsa and how you get mrsa?",
+      "disease": "MRSA",
+      "section": "how_you_get_mrsa",
+      "source_url": "https://www2.hse.ie/conditions/mrsa/#how-you-get-mrsa",
+      "rerank_score": 12.873228073120117,
+      "content": "# MRSA\n\n## Question\nWhat should I know about mrsa and how you get mrsa?\n\n### Answer\nMRSA is a common bug, especially for people who spend a lot of time in hospital. This is because lots of people carry superbugs in hospital. This makes it easier for them to spread.\n\nThere's often no way of knowing when or where you picked it up.\n\nMRSA can live harmlessly:\n\n- on skin\n- in the nose\n- in wounds\n- in leg ulcers\n\nIf they do not cause infection, bacteria can go away within days or months without you noticing. It can also grow under skin. This can lead to a skin, fat or muscle infection.\n\n**Section:** how_you_get_mrsa\n\n**Source:** https://www2.hse.ie/conditions/mrsa/#how-you-get-mrsa"
+    },
+    {
+      "question_hash": "fd5480953955c066",
+      "question": "What should I know about mrsa and diagnosing mrsa?",
+      "disease": "MRSA",
+      "section": "diagnosing_mrsa",
+      "source_url": "https://www2.hse.ie/conditions/mrsa/#diagnosing-mrsa",
+      "rerank_score": 9.797739028930664,
+      "content": "# MRSA\n\n## Question\nWhat should I know about mrsa and diagnosing mrsa?\n\n### Answer\nYou might need to give samples if you're in hospital or going into hospital.\n\nA doctor or nurse will take samples from your skin, nose and other parts of the body.\n\nThe sample is then sent to a lab for testing. You should get the result back within a few days.\n\n**Section:** diagnosing_mrsa\n\n**Source:** https://www2.hse.ie/conditions/mrsa/#diagnosing-mrsa"
+    },
+    {
+      "question_hash": "4cd4713a59c5084f",
+      "question": "What should I know about mrsa and if you know you carry mrsa?",
+      "disease": "MRSA",
+      "section": "if_you_know_you_carry_mrsa",
+      "source_url": "https://www2.hse.ie/conditions/mrsa/#if-you-know-you-carry-mrsa",
+      "rerank_score": 9.49303388595581,
+      "content": "# MRSA\n\n## Question\nWhat should I know about mrsa and if you know you carry mrsa?\n\n### Answer\nTell the doctor when you make an appointment and when you get to the surgery or hospital. If you're in hospital, you might need to stay in your own room or a ward with people who carry MRSA.\n\nIf you carry MRSA, this should not get in the way of your normal home life. MRSA is less likely to harm people who are well enough to be at home.\n\nYou do not need to limit contact with anyone. You also do not need to tell friends or family that you have MRSA.\n\n**Section:** if_you_know_you_carry_mrsa\n\n**Source:** https://www2.hse.ie/conditions/mrsa/#if-you-know-you-carry-mrsa"
+    },
+    {
+      "question_hash": "de42a88f71c61d73",
+      "question": "What should I know about mrsa and treatment of mrsa?",
+      "disease": "MRSA",
+      "section": "treatment_of_mrsa",
+      "source_url": "https://www2.hse.ie/conditions/mrsa/#treatment-of-mrsa",
+      "rerank_score": 9.137837409973145,
+      "content": "# MRSA\n\n## Question\nWhat should I know about mrsa and treatment of mrsa?\n\n### Answer\nIf you carry MRSA, you may need treatment to remove it.\n\nThis usually involves washing with antibacterial shampoo and putting antibacterial cream in your nose.\n\nAny skin irritation from treatment products should be mild. If you get a rash, stop treatment and ask your GP or pharmacist for advice.\n\nDuring treatment, change your bedding, clothes and towel every day. Keep your laundry separate from other people's items. Wash it at the highest temperature possible for the material.\n\nTreating MRSA infection\nIf you have an MRSA infection, you can be treated with antibiotics .\n\nIf you have an MRSA infection, you can be treated with antibiotics .\n\n**Section:** treatment_of_mrsa\n\n**Source:** https://www2.hse.ie/conditions/mrsa/#treatment-of-mrsa"
+    }
+  ],
+  "can_answer": true,
+  "final_answer": "Here's what you should know about MRSA and how you get MRSA:\n\nMRSA is a common bug that can be spread in hospitals where many people carry superbugs. It can live harmlessly on skin, in the nose, in wounds, and in leg ulcers.\n\nYou might not know when or where you picked up MRSA, as it can grow under skin and cause infection without symptoms.\n\nTo diagnose MRSA, a doctor or nurse will take samples from your skin, nose, and other parts of your body, which are then sent to a lab for testing. You should get the result back within a few days.\n\nIf you carry MRSA, you don't need to limit contact with others, but it's recommended to wash with antibacterial shampoo and apply antibacterial cream in your nose. Treatment may also involve changing bedding, clothes, and towels daily, and washing laundry at high temperatures.\n\nTreatment for MRSA infection involves antibiotics.\n\nSources:\n- https://www2.hse.ie/conditions/mrsa/#how-you-get-mrsa\n- https://www2.hse.ie/conditions/mrsa/#diagnosing-mrsa\n- https://www2.hse.ie/conditions/mrsa/#if-you-know-you-carry-mrsa\n- https://www2.hse.ie/conditions/mrsa/#treatment-of-mrsa"
+}

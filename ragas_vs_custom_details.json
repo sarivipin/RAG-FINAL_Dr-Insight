@@ -1,0 +1,49 @@
+{
+  "comparison": [
+    {
+      "question": "What are the symptoms of bacterial vaginosis?",
+      "ragas_faithfulness": 1.0,
+      "custom_faithfulness": 0.8,
+      "ragas_context_recall": 1.0,
+      "custom_context_recall": 0.4,
+      "ragas_context_precision": 0.9999999999,
+      "custom_bleu": 0.9107142857142856
+    },
+    {
+      "question": "What causes varicose veins?",
+      "ragas_faithfulness": 1.0,
+      "custom_faithfulness": 0.8,
+      "ragas_context_recall": 1.0,
+      "custom_context_recall": 0.4,
+      "ragas_context_precision": 0.9999999999,
+      "custom_bleu": 0.459016393442623
+    },
+    {
+      "question": "How can skin cancer (melanoma) be prevented?",
+      "ragas_faithfulness": 0.9090909090909091,
+      "custom_faithfulness": 0.33,
+      "ragas_context_recall": 1.0,
+      "custom_context_recall": 0.4,
+      "ragas_context_precision": 0.8333333332916666,
+      "custom_bleu": 0.7846153846153846
+    },
+    {
+      "question": "What is it like to live with type 1 diabetes?",
+      "ragas_faithfulness": 0.7142857142857143,
+      "custom_faithfulness": 0.5,
+      "ragas_context_recall": 1.0,
+      "custom_context_recall": 0.33,
+      "ragas_context_precision": 0.9999999999,
+      "custom_bleu": 0.0961538461538461
+    },
+    {
+      "question": "What should I know about mrsa and how you get mrsa?",
+      "ragas_faithfulness": 1.0,
+      "custom_faithfulness": 0.4,
+      "ragas_context_recall": 1.0,
+      "custom_context_recall": 0.4,
+      "ragas_context_precision": 0.8333333332916666,
+      "custom_bleu": 0.3424657534246575
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+faithfulness,context_recall,bleu,user_input,response
+1.0,1.0,0.8679245283018868,What are the symptoms of bacterial vaginosis?,"The symptoms of bacterial vaginosis are usually:
+- a change in the colour or texture of your normal vaginal discharge
+- an unusual smell coming from your vagina or discharge
+Your discharge may become more watery and look grey, with an unusual smell sometimes compared to the smell of raw fish.
+
+Source: https://www2.hse.ie/conditions/bacterial-vaginosis-pregnancy/#symptoms-of-bacterial-vaginosis"
+1.0,1.0,0.40163934426229503,What causes varicose veins?,"Varicose veins develop when the small valves inside the veins stop working properly, causing blood to flow backwards and collect in the vein. This can lead to the vein becoming swollen and enlarged. Factors that increase the chances of developing varicose veins include being female, having a close family member with varicose veins, being older, being overweight, having a job that involves long periods of standing, and being pregnant.
+
+Source: https://www2.hse.ie/conditions/varicose-veins/#causes-of-varicose-veins"
+1.0,1.0,0.9692307692307692,How can skin cancer (melanoma) be prevented?,"Melanoma is not always preventable, but you can reduce your chances of developing it by avoiding getting sunburnt. You can help protect yourself from the sun by:
+- covering up with a hat, clothing and sunglasses
+- staying in the shade, especially between 11am and 3pm
+- putting sunscreen on any skin that is not covered
+Do not use sunbeds, sunlamps or sunbathe.
+
+Source: https://www2.hse.ie/conditions/skin-cancer-melanoma/#preventing-melanoma"
+1.0,1.0,0.2,What is it like to live with type 1 diabetes?,"The provided context does not give a detailed description of what it is like to live with type 1 diabetes. It only mentions that there is advice on avoiding complications of type 1 diabetes in the ""living_with"" section.
+
+Source: https://www2.hse.ie/conditions/type-1-diabetes/#living-with-type-1-diabetes"
+1.0,1.0,0.7755102040816327,What should I know about mrsa and how you get mrsa?,"MRSA is a common bug, especially for people who spend a lot of time in hospital, as lots of people carry superbugs in hospital, making it easier for them to spread. MRSA can live harmlessly on skin, in the nose, in wounds, and in leg ulcers. If they do not cause infection, bacteria can go away within days or months without noticing. It can also grow under skin, leading to a skin, fat, or muscle infection. There's often no way of knowing when or where you picked it up.
+
+Source: https://www2.hse.ie/conditions/mrsa/#how-you-get-mrsa"

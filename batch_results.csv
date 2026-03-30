@@ -1,0 +1,48 @@
+query,answer,faithfulness,coverage,relevance
+What are the symptoms of bacterial vaginosis?,"The symptoms of bacterial vaginosis are:
+
+- a change in the colour or texture of your normal vaginal discharge
+- an unusual smell coming from your vagina or discharge
+- Your discharge may become more watery. It might also look grey.
+- The unusual smell is sometimes compared to the smell of raw fish.
+
+Source: https://www2.hse.ie/conditions/bacterial-vaginosis-pregnancy/#symptoms-of-bacterial-vaginosis",0.95,0.26573426573426573,0.5714285714285714
+What causes varicose veins?,"Varicose veins develop when the small valves inside the veins stop working properly, causing blood to flow backwards and collect in the vein.
+
+The chances of developing varicose veins are increased if you:
+
+* are female
+* have a close family member with varicose veins
+* are older
+* are overweight
+* have a job that involves long periods of standing
+* are pregnant
+
+Source: https://www2.hse.ie/conditions/varicose-veins/#causes-of-varicose-veins",0.9347826086956522,0.2182741116751269,0.25
+How can skin cancer (melanoma) be prevented?,"Skin cancer (melanoma) can be prevented by avoiding getting sunburnt. You can help protect yourself from the sun by:
+
+- covering up with a hat, clothing and sunglasses
+- staying in the shade, especially between 11am and 3pm
+- putting sunscreen on any skin that is not covered
+
+Do not use sunbeds, sunlamps or sunbathe.
+
+Source: https://www2.hse.ie/conditions/skin-cancer-melanoma/#preventing-melanoma",0.96,0.2891566265060241,0.7142857142857143
+What is it like to live with type 1 diabetes?,"The provided context does not offer a direct answer to the question ""What is it like to live with type 1 diabetes?"" It appears that the retrieved documents focus on specific aspects of managing type 1 diabetes, such as avoiding complications, managing blood glucose levels, understanding insulin, and accessing courses and support.
+
+Therefore, I cannot provide a comprehensive answer to this question based on the provided context. The information available seems to be more focused on practical advice and guidance rather than personal experiences or emotional aspects of living with type 1 diabetes.",0.3188405797101449,0.34375,0.8
+What should I know about mrsa and how you get mrsa?,"Based on the provided context, here are the key points about MRSA and how you get MRSA:
+
+* MRSA is a common bug that can spread easily in hospitals where many people carry superbugs.
+* It can live harmlessly on skin, in the nose, in wounds, and in leg ulcers.
+* There's often no way of knowing when or where you picked it up.
+* You might need to give samples if you're in hospital or going into hospital for testing.
+* If you carry MRSA, you may need treatment to remove it, which usually involves washing with antibacterial shampoo and putting antibacterial cream in your nose.
+
+It's unclear how exactly you get MRSA from the provided context. However, it is mentioned that people who spend a lot of time in hospitals are more likely to pick up MRSA due to the presence of superbugs among hospital staff and patients.
+
+Source:
+- https://www2.hse.ie/conditions/mrsa/#how-you-get-mrsa
+- https://www2.hse.ie/conditions/mrsa/#diagnosing-mrsa
+- https://www2.hse.ie/conditions/mrsa/#if-you-know-you-carry-mrsa
+- https://www2.hse.ie/conditions/mrsa/#treatment-of-mrsa",0.6666666666666666,0.35175879396984927,0.5454545454545454
