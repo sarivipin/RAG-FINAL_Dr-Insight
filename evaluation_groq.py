@@ -19,7 +19,7 @@ DOCS_PATH = "docs"
 RESULTS_CSV = "ragas_results_groq.csv"
 DETAILS_JSON = "ragas_details_groq.json"
 
-MAX_QUESTIONS = 5
+MAX_QUESTIONS = 20
 GROQ_MODEL = "llama-3.3-70b-versatile"
 
 # Retry settings for rate-limit handling

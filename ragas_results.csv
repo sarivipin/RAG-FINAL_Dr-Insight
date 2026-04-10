@@ -1,17 +1,15 @@
 faithfulness,context_recall,bleu,user_input,response
-0.8,0.8,0.9636363636363636,What are the symptoms of bacterial vaginosis?,"The symptoms of bacterial vaginosis are usually:
+0.8,0.8,0.9107142857142857,What are the symptoms of bacterial vaginosis?,"The symptoms of bacterial vaginosis are:
 
 - a change in the colour or texture of your normal vaginal discharge
 - an unusual smell coming from your vagina or discharge
-
-Your discharge may become more watery. It might also look grey.
-
-The unusual smell is sometimes compared to the smell of raw fish.
+- Your discharge may become more watery. It might also look grey.
+- The unusual smell is sometimes compared to the smell of raw fish.
 
 Source: https://www2.hse.ie/conditions/bacterial-vaginosis-pregnancy/#symptoms-of-bacterial-vaginosis"
-0.8,0.4,0.2377049180327869,What causes varicose veins?,"Varicose veins develop when the small valves inside the veins stop working properly, causing blood to flow backwards and collect in the vein.
+0.5,0.4,0.22950819672131145,What causes varicose veins?,"Varicose veins develop when the small valves inside the veins stop working properly, causing blood to flow backwards and collect in the vein.
 
-This is the cause of varicose veins as stated in Document 1."
+The provided context does not provide a complete explanation of what causes varicose veins beyond this point."
 0.8,0.4,0.7638888888888888,How can skin cancer (melanoma) be prevented?,"According to the provided context, skin cancer (melanoma) can be prevented by reducing your chances of developing it by avoiding getting sunburnt. You can help protect yourself from the sun by:
 
 - covering up with a hat, clothing and sunglasses
@@ -22,23 +20,20 @@ Additionally, do not use sunbeds, sunlamps or sunbathe.
 
 Source:
 Document 1: https://www2.hse.ie/conditions/skin-cancer-melanoma/#preventing-melanoma"
-0.5,0.33,0.06741573033707865,What is it like to live with type 1 diabetes?,"Unfortunately, the provided context does not offer a direct answer to what it's like to live with type 1 diabetes. The retrieved documents focus on specific aspects of managing type 1 diabetes, such as avoiding complications, managing blood glucose levels, understanding insulin, and accessing courses and support.
+0.5,0.33,0.0759493670886076,What is it like to live with type 1 diabetes?,"The context provided only mentions the general aspects of living with type 1 diabetes, but does not provide a detailed description of what it is like to live with the condition.
 
-The context suggests that living with type 1 diabetes is likely discussed in the ""living_with"" section, but this section is not explicitly provided in the available documents. Therefore, I cannot provide a direct answer to this question based on the given information."
-0.4,0.4,0.30246913580246915,What should I know about mrsa and how you get mrsa?,"Here's what you should know about MRSA and how you get MRSA:
+However, according to Document 1, ""Advice on avoiding complications of type 1 diabetes"" provides guidance on managing the condition, which may help individuals understand how to cope with the daily challenges of living with type 1 diabetes.
 
-MRSA is a common bug that can be spread in hospitals where many people carry superbugs. It can live harmlessly on skin, in the nose, in wounds, and in leg ulcers.
+Unfortunately, no direct answer can be provided within the given context."
+0.4,0.4,0.3611111111111111,What should I know about mrsa and how you get mrsa?,"Here's what you should know about MRSA and how you get MRSA:
 
-You might not know when or where you picked up MRSA, as it can grow under skin and cause infection without symptoms.
+MRSA is a common bug, especially for people who spend a lot of time in hospital. It can live harmlessly on skin, in the nose, in wounds, and in leg ulcers. You might not know when or where you picked it up.
 
-To diagnose MRSA, a doctor or nurse will take samples from your skin, nose, and other parts of your body, which are then sent to a lab for testing. You should get the result back within a few days.
+If you carry MRSA, there's often no way to tell. However, if you develop an infection, your doctor or nurse may take samples from your skin, nose, and other parts of your body for testing.
 
-If you carry MRSA, you don't need to limit contact with others, but it's recommended to wash with antibacterial shampoo and apply antibacterial cream in your nose. Treatment may also involve changing bedding, clothes, and towels daily, and washing laundry at high temperatures.
+To treat MRSA infection, antibiotics are usually prescribed. During treatment, it's essential to follow proper hygiene practices, such as washing with antibacterial shampoo, using antibacterial cream in your nose, changing bedding, clothes, and towels daily, and keeping laundry separate from others' items.
 
-Treatment for MRSA infection involves antibiotics.
-
-Sources:
-- https://www2.hse.ie/conditions/mrsa/#how-you-get-mrsa
-- https://www2.hse.ie/conditions/mrsa/#diagnosing-mrsa
-- https://www2.hse.ie/conditions/mrsa/#if-you-know-you-carry-mrsa
-- https://www2.hse.ie/conditions/mrsa/#treatment-of-mrsa"
+Source:
+- Document 1: https://www2.hse.ie/conditions/mrsa/#how-you-get-mrsa
+- Document 3: https://www2.hse.ie/conditions/mrsa/#if-you-know-you-carry-mrsa
+- Document 4: https://www2.hse.ie/conditions/mrsa/#treatment-of-mrsa"

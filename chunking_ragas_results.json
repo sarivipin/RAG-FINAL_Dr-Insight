@@ -2,19 +2,37 @@
   "qa_pair": {
     "method": "qa_pair",
     "label": "QA-Pair (Original)",
-    "avg_faithfulness": 0.9800000000000001,
+    "avg_faithfulness": 0.9823376623376623,
     "avg_context_recall": 1.0,
-    "avg_context_precision": 0.8999999999480556,
+    "avg_context_precision": 0.9374999999246528,
     "per_question": [
       {
-        "question": "What are the symptoms of bacterial vaginosis?",
+        "question": "What are the symptoms of appendicitis?",
         "faithfulness": 1.0,
         "context_recall": 1.0,
         "context_precision": 0.9999999999
       },
       {
+        "question": "What causes appendicitis?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999
+      },
+      {
+        "question": "What should I know about appendicitis and treating appendicitis?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.99999999995
+      },
+      {
         "question": "What causes varicose veins?",
         "faithfulness": 0.9,
+        "context_recall": 1.0,
+        "context_precision": 0.9166666666361111
+      },
+      {
+        "question": "How can varicose veins be prevented?",
+        "faithfulness": 0.8181818181818182,
         "context_recall": 1.0,
         "context_precision": 0.99999999995
       },
@@ -25,31 +43,115 @@
         "context_precision": 0.9166666666361111
       },
       {
+        "question": "What should I know about skin cancer (melanoma) and signs and symptoms of melanoma?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999
+      },
+      {
         "question": "What is it like to live with type 1 diabetes?",
         "faithfulness": 1.0,
         "context_recall": 1.0,
         "context_precision": 0.7499999999625
       },
       {
+        "question": "What should I know about type 1 diabetes and managing blood glucose levels?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999
+      },
+      {
+        "question": "What is the treatment for type 2 diabetes?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.3333333333
+      },
+      {
         "question": "What should I know about mrsa and how you get mrsa?",
         "faithfulness": 1.0,
         "context_recall": 1.0,
         "context_precision": 0.8333333332916666
+      },
+      {
+        "question": "What are the symptoms of mrsa?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999
+      },
+      {
+        "question": "How can mrsa be prevented?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999
+      },
+      {
+        "question": "What causes migraine?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999
+      },
+      {
+        "question": "How can migraine be prevented?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999
+      },
+      {
+        "question": "What should I know about migraine and treating migraine?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999
+      },
+      {
+        "question": "What causes high blood pressure (hypertension)?",
+        "faithfulness": 0.9285714285714286,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999
+      },
+      {
+        "question": "How can high blood pressure (hypertension) be prevented?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999666667
+      },
+      {
+        "question": "What are the symptoms of stroke?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999
+      },
+      {
+        "question": "What causes kidney stones?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999
       }
     ]
   },
   "recursive": {
     "method": "recursive",
     "label": "Recursive Character",
-    "avg_faithfulness": 0.9800000000000001,
-    "avg_context_recall": 0.8,
-    "avg_context_precision": 0.7833333332872222,
+    "avg_faithfulness": 0.945,
+    "avg_context_recall": 0.923076923076923,
+    "avg_context_precision": 0.912499999941736,
     "per_question": [
       {
-        "question": "What are the symptoms of bacterial vaginosis?",
+        "question": "What are the symptoms of appendicitis?",
         "faithfulness": 1.0,
         "context_recall": 1.0,
         "context_precision": 0.9999999999
+      },
+      {
+        "question": "What causes appendicitis?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999666667
+      },
+      {
+        "question": "What should I know about appendicitis and treating appendicitis?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.8333333332916666
       },
       {
         "question": "What causes varicose veins?",
@@ -58,10 +160,22 @@
         "context_precision": 0.99999999995
       },
       {
+        "question": "How can varicose veins be prevented?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.8333333332916666
+      },
+      {
         "question": "How can skin cancer (melanoma) be prevented?",
         "faithfulness": 1.0,
         "context_recall": 1.0,
         "context_precision": 0.99999999995
+      },
+      {
+        "question": "What should I know about skin cancer (melanoma) and signs and symptoms of melanoma?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999
       },
       {
         "question": "What is it like to live with type 1 diabetes?",
@@ -70,30 +184,114 @@
         "context_precision": 0.0
       },
       {
+        "question": "What should I know about type 1 diabetes and managing blood glucose levels?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999
+      },
+      {
+        "question": "What is the treatment for type 2 diabetes?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999
+      },
+      {
         "question": "What should I know about mrsa and how you get mrsa?",
         "faithfulness": 1.0,
         "context_recall": 1.0,
         "context_precision": 0.9166666666361111
+      },
+      {
+        "question": "What are the symptoms of mrsa?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.99999999995
+      },
+      {
+        "question": "How can mrsa be prevented?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.99999999995
+      },
+      {
+        "question": "What causes migraine?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999
+      },
+      {
+        "question": "How can migraine be prevented?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.99999999995
+      },
+      {
+        "question": "What should I know about migraine and treating migraine?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.99999999995
+      },
+      {
+        "question": "What causes high blood pressure (hypertension)?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.99999999995
+      },
+      {
+        "question": "How can high blood pressure (hypertension) be prevented?",
+        "faithfulness": 0.0,
+        "context_recall": 0.46153846153846156,
+        "context_precision": 0.9166666666361111
+      },
+      {
+        "question": "What are the symptoms of stroke?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.7499999999625
+      },
+      {
+        "question": "What causes kidney stones?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999
       }
     ]
   },
   "semantic": {
     "method": "semantic",
     "label": "Semantic Chunking",
-    "avg_faithfulness": 0.9714285714285713,
-    "avg_context_recall": 0.6599999999999999,
-    "avg_context_precision": 0.7166666666208333,
+    "avg_faithfulness": 0.8719444444444445,
+    "avg_context_recall": 0.8380952380952381,
+    "avg_context_precision": 0.762499999938125,
     "per_question": [
       {
-        "question": "What are the symptoms of bacterial vaginosis?",
+        "question": "What are the symptoms of appendicitis?",
         "faithfulness": 1.0,
         "context_recall": 1.0,
         "context_precision": 0.9999999999
       },
       {
+        "question": "What causes appendicitis?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999666667
+      },
+      {
+        "question": "What should I know about appendicitis and treating appendicitis?",
+        "faithfulness": 0.5555555555555556,
+        "context_recall": 0.42857142857142855,
+        "context_precision": 0.49999999995
+      },
+      {
         "question": "What causes varicose veins?",
-        "faithfulness": 0.8571428571428571,
+        "faithfulness": 0.8333333333333334,
         "context_recall": 0.5,
+        "context_precision": 0.49999999995
+      },
+      {
+        "question": "How can varicose veins be prevented?",
+        "faithfulness": 0.8,
+        "context_recall": 1.0,
         "context_precision": 0.99999999995
       },
       {
@@ -103,16 +301,88 @@
         "context_precision": 0.8333333332916666
       },
       {
+        "question": "What should I know about skin cancer (melanoma) and signs and symptoms of melanoma?",
+        "faithfulness": 0.25,
+        "context_recall": 0.75,
+        "context_precision": 0.49999999995
+      },
+      {
         "question": "What is it like to live with type 1 diabetes?",
         "faithfulness": 1.0,
         "context_recall": 0.0,
         "context_precision": 0.0
       },
       {
+        "question": "What should I know about type 1 diabetes and managing blood glucose levels?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999
+      },
+      {
+        "question": "What is the treatment for type 2 diabetes?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999
+      },
+      {
         "question": "What should I know about mrsa and how you get mrsa?",
         "faithfulness": 1.0,
-        "context_recall": 0.8,
+        "context_recall": 0.75,
         "context_precision": 0.7499999999625
+      },
+      {
+        "question": "What are the symptoms of mrsa?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999
+      },
+      {
+        "question": "How can mrsa be prevented?",
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999
+      },
+      {
+        "question": "What causes migraine?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999
+      },
+      {
+        "question": "How can migraine be prevented?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.49999999995
+      },
+      {
+        "question": "What should I know about migraine and treating migraine?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.8333333332916666
+      },
+      {
+        "question": "What causes high blood pressure (hypertension)?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999
+      },
+      {
+        "question": "How can high blood pressure (hypertension) be prevented?",
+        "faithfulness": 1.0,
+        "context_recall": 0.3333333333333333,
+        "context_precision": 0.3333333333
+      },
+      {
+        "question": "What are the symptoms of stroke?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.49999999995
+      },
+      {
+        "question": "What causes kidney stones?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.99999999995
       }
     ]
   }

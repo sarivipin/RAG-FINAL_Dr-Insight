@@ -3,74 +3,74 @@
     {
       "user_input": "What are the symptoms of bacterial vaginosis?",
       "response": "The symptoms of bacterial vaginosis are:\n\n- a change in the colour or texture of your normal vaginal discharge\n- an unusual smell coming from your vagina or discharge\n- Your discharge may become more watery. It might also look grey.\n- The unusual smell is sometimes compared to the smell of raw fish.\n\nSource: https://www2.hse.ie/conditions/bacterial-vaginosis-pregnancy/#symptoms-of-bacterial-vaginosis",
-      "faithfulness": 1.0,
+      "faithfulness": 0.8,
       "context_recall": 1.0,
       "bleu": 0.9107142857142857
     },
     {
       "user_input": "What causes varicose veins?",
-      "response": "Varicose veins develop when the small valves inside the veins stop working properly, causing blood to flow backwards and collect in the vein.\n\nThe chances of developing varicose veins are increased if you:\n\n* are female\n* have a close family member with varicose veins\n* are older\n* are overweight\n* have a job that involves long periods of standing\n* are pregnant\n\nSource: https://www2.hse.ie/conditions/varicose-veins/#causes-of-varicose-veins",
+      "response": "Varicose veins develop when the small valves inside the veins stop working properly, causing blood to flow backwards and collect in the vein.\n\nThe provided context does not provide a complete explanation of what causes varicose veins beyond this point.",
       "faithfulness": 1.0,
       "context_recall": 1.0,
-      "bleu": 0.459016393442623
+      "bleu": 0.22950819672131145
     },
     {
       "user_input": "How can skin cancer (melanoma) be prevented?",
-      "response": "Melanoma can be prevented by avoiding getting sunburnt. You can help protect yourself from the sun by:\n\n- covering up with a hat, clothing and sunglasses\n- staying in the shade, especially between 11am and 3pm\n- putting sunscreen on any skin that is not covered\n\nDo not use sunbeds, sunlamps or sunbathe.\n\nSource: https://www2.hse.ie/conditions/skin-cancer-melanoma/#preventing-melanoma",
+      "response": "According to the provided context, skin cancer (melanoma) can be prevented by reducing your chances of developing it by avoiding getting sunburnt. You can help protect yourself from the sun by:\n\n- covering up with a hat, clothing and sunglasses\n- staying in the shade, especially between 11am and 3pm\n- putting sunscreen on any skin that is not covered\n\nAdditionally, do not use sunbeds, sunlamps or sunbathe.\n\nSource:\nDocument 1: https://www2.hse.ie/conditions/skin-cancer-melanoma/#preventing-melanoma",
       "faithfulness": 1.0,
       "context_recall": 1.0,
-      "bleu": 0.7846153846153846
+      "bleu": 0.7638888888888888
     },
     {
       "user_input": "What is it like to live with type 1 diabetes?",
-      "response": "The context provided only offers information on managing blood glucose levels, insulin, and courses/support for type 1 diabetes. It does not directly address what it is like to live with the condition.\n\nFor a comprehensive understanding of living with type 1 diabetes, consider exploring additional resources or seeking advice from healthcare professionals.",
+      "response": "The context provided only mentions the general aspects of living with type 1 diabetes, but does not provide a detailed description of what it is like to live with the condition.\n\nHowever, according to Document 1, \"Advice on avoiding complications of type 1 diabetes\" provides guidance on managing the condition, which may help individuals understand how to cope with the daily challenges of living with type 1 diabetes.\n\nUnfortunately, no direct answer can be provided within the given context.",
       "faithfulness": 0.8,
       "context_recall": 1.0,
-      "bleu": 0.09615384615384616
+      "bleu": 0.0759493670886076
     },
     {
       "user_input": "What should I know about mrsa and how you get mrsa?",
-      "response": "Here's what you should know about MRSA and how you get it:\n\nMRSA is a common bug, especially for people who spend a lot of time in hospital. It can live harmlessly on skin, in the nose, in wounds, and in leg ulcers. You might not know when or where you picked it up.\n\nIf you carry MRSA, there's often no way to know. However, if you have an infection, you can be treated with antibiotics.\n\nTo treat MRSA, you may need to:\n\n* Wash with antibacterial shampoo\n* Put antibacterial cream in your nose\n* Change bedding, clothes, and towel every day\n* Keep laundry separate from other people's items and wash it at high temperature\n\nIt's essential to tell the doctor when you make an appointment and when you get to the surgery or hospital if you carry MRSA.\n\nSource:\nhttps://www2.hse.ie/conditions/mrsa/#how-you-get-mrsa\nhttps://www2.hse.ie/conditions/mrsa/#diagnosing_mrsa\nhttps://www2.hse.ie/conditions/mrsa/#if-you-know-you-carry-mrsa\nhttps://www2.hse.ie/conditions/mrsa/#treatment-of-mrsa",
-      "faithfulness": 0.6,
+      "response": "Here's what you should know about MRSA and how you get MRSA:\n\nMRSA is a common bug, especially for people who spend a lot of time in hospital. It can live harmlessly on skin, in the nose, in wounds, and in leg ulcers. You might not know when or where you picked it up.\n\nIf you carry MRSA, there's often no way to tell. However, if you develop an infection, your doctor or nurse may take samples from your skin, nose, and other parts of your body for testing.\n\nTo treat MRSA infection, antibiotics are usually prescribed. During treatment, it's essential to follow proper hygiene practices, such as washing with antibacterial shampoo, using antibacterial cream in your nose, changing bedding, clothes, and towels daily, and keeping laundry separate from others' items.\n\nSource:\n- Document 1: https://www2.hse.ie/conditions/mrsa/#how-you-get-mrsa\n- Document 3: https://www2.hse.ie/conditions/mrsa/#if-you-know-you-carry-mrsa\n- Document 4: https://www2.hse.ie/conditions/mrsa/#treatment-of-mrsa",
+      "faithfulness": 0.4,
       "context_recall": 1.0,
-      "bleu": 0.3424657534246575
+      "bleu": 0.3611111111111111
     }
   ],
   "groq_scored": [
     {
-      "user_input": "What are the symptoms of bacterial vaginosis?",
-      "response": "The symptoms of bacterial vaginosis are usually: \n- a change in the colour or texture of your normal vaginal discharge\n- an unusual smell coming from your vagina or discharge\nYour discharge may become more watery and look grey, with an unusual smell sometimes compared to the smell of raw fish.\n\nSource: https://www2.hse.ie/conditions/bacterial-vaginosis-pregnancy/#symptoms-of-bacterial-vaginosis",
+      "user_input": "What are the symptoms of appendicitis?",
+      "response": "The symptoms of appendicitis usually start with a pain in the middle of the abdomen that may come and go. Within hours, the pain travels to the lower right-hand side of the body, where the appendix lies, and can become constant and severe. Things that may make the pain worse include pressing on the area, coughing, and walking. Additionally, you may lose your appetite, feel sick, and have constipation or diarrhea.\n\nSource: https://www2.hse.ie/conditions/appendicitis/#symptoms-of-appendicitis",
       "faithfulness": 1.0,
       "context_recall": 1.0,
-      "bleu": 0.8679245283018868
+      "bleu": 0.7160493827160493
+    },
+    {
+      "user_input": "What causes appendicitis?",
+      "response": "It's not clear what causes appendicitis. It may be that something blocks the entrance of the appendix, such as a small piece of poo, or an infection that causes the lymph node in the wall of the bowel to become swollen, leading to increased pressure in the appendix.\n\nSource: https://www2.hse.ie/conditions/appendicitis/#causes-of-appendicitis",
+      "faithfulness": 1.0,
+      "context_recall": 1.0,
+      "bleu": 0.5324675324675324
+    },
+    {
+      "user_input": "What should I know about appendicitis and treating appendicitis?",
+      "response": "If you have appendicitis, it's likely your appendix will need to be removed as soon as possible. The operation to remove your appendix is known as an appendicectomy or appendectomy, and it's usually carried out as keyhole surgery. Open surgery is usually used if the appendix has burst or access is more difficult. It usually takes a couple of weeks to make a full recovery after your appendix has been removed, and strenuous activities may need to be avoided for up to 6 weeks after having open surgery.\n\nSource: https://www2.hse.ie/conditions/appendicitis/#treating-appendicitis",
+      "faithfulness": 1.0,
+      "context_recall": 1.0,
+      "bleu": 0.6028368794326241
     },
     {
       "user_input": "What causes varicose veins?",
-      "response": "Varicose veins develop when the small valves inside the veins stop working properly, causing blood to flow backwards and collect in the vein, leading to swelling and enlargement. Factors that increase the chances of developing varicose veins include being female, having a close family member with varicose veins, being older, being overweight, having a job that involves long periods of standing, and being pregnant.\n\nSource: https://www2.hse.ie/conditions/varicose-veins/#causes-of-varicose-veins",
+      "response": "Varicose veins develop when the small valves inside the veins stop working properly, causing blood to flow backwards and collect in the vein. This can be due to weakened or damaged valves. Additionally, certain factors can increase the chances of developing varicose veins, including being female, having a close family member with varicose veins, being older, being overweight, having a job that involves long periods of standing, and being pregnant.\n\nSource: https://www2.hse.ie/conditions/varicose-veins/#causes-of-varicose-veins",
       "faithfulness": 1.0,
       "context_recall": 1.0,
-      "bleu": 0.36065573770491804
+      "bleu": 0.3688524590163934
     },
     {
-      "user_input": "How can skin cancer (melanoma) be prevented?",
-      "response": "Melanoma is not always preventable, but you can reduce your chances of developing it by avoiding getting sunburnt. You can help protect yourself from the sun by:\n- covering up with a hat, clothing and sunglasses\n- staying in the shade, especially between 11am and 3pm\n- putting sunscreen on any skin that is not covered\nDo not use sunbeds, sunlamps or sunbathe.\n\nSource: https://www2.hse.ie/conditions/skin-cancer-melanoma/#preventing-melanoma",
+      "user_input": "How can varicose veins be prevented?",
+      "response": "There's little evidence to suggest you can stop varicose veins getting worse or prevent new ones developing. However, ways to ease symptoms of existing varicose veins include:\n- avoiding standing or sitting still for long periods and trying to move around every 30 minutes\n- taking regular breaks throughout the day, raising the legs on pillows while resting to ease discomfort\n- exercising regularly \u00e2\u20ac\u201c this can improve circulation and help maintain a healthy weight\n\nSource: https://www2.hse.ie/conditions/varicose-veins/#preventing-varicose-veins",
       "faithfulness": 1.0,
       "context_recall": 1.0,
-      "bleu": 0.9692307692307692
-    },
-    {
-      "user_input": "What is it like to live with type 1 diabetes?",
-      "response": "The provided context does not give a detailed description of what it is like to live with type 1 diabetes. It only mentions that there is advice on avoiding complications of type 1 diabetes in the \"living_with\" section.\n\nSource: https://www2.hse.ie/conditions/type-1-diabetes/#living-with-type-1-diabetes",
-      "faithfulness": 1.0,
-      "context_recall": 1.0,
-      "bleu": 0.2
-    },
-    {
-      "user_input": "What should I know about mrsa and how you get mrsa?",
-      "response": "MRSA is a common bug, especially for people who spend a lot of time in hospital, as lots of people carry superbugs in hospital, making it easier for them to spread. MRSA can live harmlessly on skin, in the nose, in wounds, and in leg ulcers. If they do not cause infection, bacteria can go away within days or months without you noticing. It can also grow under skin, leading to a skin, fat, or muscle infection. There's often no way of knowing when or where you picked it up.\n\nSource: https://www2.hse.ie/conditions/mrsa/#how-you-get-mrsa",
-      "faithfulness": 1.0,
-      "context_recall": 1.0,
-      "bleu": 0.7857142857142858
+      "bleu": 0.9230769230769231
     }
   ]
 }

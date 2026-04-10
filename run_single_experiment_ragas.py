@@ -40,7 +40,7 @@ def get_emb(name):
 def normalize_text(t): return re.sub(r"\s+", " ", t.strip().lower())
 
 def load_questions():
-    with open(QUESTIONS_FILE) as f: return [l.strip() for l in f if l.strip()][:5]
+    with open(QUESTIONS_FILE) as f: return [l.strip() for l in f if l.strip()][:20]
 
 def build_ref_map():
     ref = {}

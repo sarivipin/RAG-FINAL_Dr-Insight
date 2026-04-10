@@ -18,7 +18,7 @@ DOCS_PATH = "docs"
 RESULTS_CSV = "ragas_results.csv"
 DETAILS_JSON = "ragas_details.json"
 
-MAX_QUESTIONS = 5
+MAX_QUESTIONS = 20
 OLLAMA_MODEL = "llama3.2"
 
 

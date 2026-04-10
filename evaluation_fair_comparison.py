@@ -170,7 +170,7 @@ def generate_report(ollama_scored, groq_scored):
         "Type 1\nDiabetes", "MRSA",
     ]
     c_ollama = "#4A90D9"
-    c_groq = "#E8833A"
+    c_groq = "#2ECC71"
 
     # --- Chart: Overall ---
     fig, ax = plt.subplots(figsize=(8, 5))
@@ -189,20 +189,6 @@ def generate_report(ollama_scored, groq_scored):
         ax.text(b.get_x()+b.get_width()/2, b.get_height()+1.5, f"{b.get_height():.1f}%", ha="center", fontsize=9)
     plt.tight_layout()
     plt.savefig("chart_fair_overall.png", dpi=150); plt.close()
-
-    # --- Chart: Per-question grouped ---
-    for metric_key, metric_label in [("faithfulness", "Faithfulness"), ("context_recall", "Context Recall"), ("bleu", "BLEU Score")]:
-        fig, ax = plt.subplots(figsize=(10, 5))
-        x = np.arange(len(questions_short))
-        o_vals = [r[metric_key]*100 for r in ollama_scored]
-        g_vals = [r[metric_key]*100 for r in groq_scored]
-        ax.bar(x - w/2, o_vals, w, label="Ollama answers", color=c_ollama)
-        ax.bar(x + w/2, g_vals, w, label="Groq answers", color=c_groq)
-        ax.set_ylabel("Score (%)"); ax.set_title(f"{metric_label} per Question (Same Judge)", fontsize=13, fontweight="bold")
-        ax.set_xticks(x); ax.set_xticklabels(questions_short, fontsize=9)
-        ax.set_ylim(0, 115); ax.legend(); ax.grid(axis="y", alpha=0.3)
-        plt.tight_layout()
-        plt.savefig(f"chart_fair_{metric_key}.png", dpi=150); plt.close()
 
     # --- Word Document ---
     doc = Document()
@@ -261,31 +247,8 @@ def generate_report(ollama_scored, groq_scored):
     doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
     doc.add_paragraph()
 
-    # Per-question tables + charts
-    add_heading("3. Per-Question Breakdown", level=1)
-
-    for metric_key, metric_label, chart_file in [
-        ("faithfulness", "Faithfulness", "chart_fair_faithfulness.png"),
-        ("context_recall", "Context Recall", "chart_fair_context_recall.png"),
-        ("bleu", "BLEU Score", "chart_fair_bleu.png"),
-    ]:
-        add_heading(f"3.{['faithfulness','context_recall','bleu'].index(metric_key)+1} {metric_label}", level=2)
-        q_names = [
-            "Symptoms of bacterial vaginosis", "Causes of varicose veins",
-            "Preventing melanoma", "Living with type 1 diabetes", "MRSA",
-        ]
-        rows = []
-        for i in range(5):
-            o = ollama_scored[i][metric_key]*100
-            g = groq_scored[i][metric_key]*100
-            rows.append([q_names[i], f"{o:.1f}%", f"{g:.1f}%", f"{g-o:+.1f}%"])
-        add_table(["Question", "Ollama", "Groq", "Diff"], rows)
-        doc.add_picture(chart_file, width=Inches(5.5))
-        doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
-        doc.add_paragraph()
-
     # Analysis
-    add_heading("4. What This Tells Us", level=1)
+    add_heading("3. What This Tells Us", level=1)
     doc.add_paragraph(
         "With the same judge model evaluating both sets of answers, we can now see the true "
         "difference in answer quality between the 3B and 70B generation models, free from judge bias."
@@ -297,7 +260,7 @@ def generate_report(ollama_scored, groq_scored):
     )
 
     # Comparison with original
-    add_heading("5. Original vs Fair Comparison", level=1)
+    add_heading("4. Original vs Fair Comparison", level=1)
     add_table(
         ["Metric", "Ollama (self-judged)", "Ollama (Groq-judged)", "Change"],
         [

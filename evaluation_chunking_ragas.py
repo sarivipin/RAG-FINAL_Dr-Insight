@@ -1,6 +1,6 @@
 """
 RAGAS evaluation of all 3 chunking methods.
-Each method uses its own vector store. Groq 70B for generation and RAGAS judging.
+Each method uses its own vector store. Groq 8B for generation, Groq 70B for RAGAS judging.
 """
 import os
 import re
@@ -31,7 +31,7 @@ DOCS_PATH = "docs"
 GROQ_MODEL = "llama-3.3-70b-versatile"
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 RERANKER_MODEL = "cross-encoder/ms-marco-MiniLM-L6-v2"
-MAX_QUESTIONS = 5
+MAX_QUESTIONS = 20
 MAX_RETRIES = 8
 INITIAL_BACKOFF = 10
 

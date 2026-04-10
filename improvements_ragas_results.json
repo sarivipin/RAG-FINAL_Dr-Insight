@@ -2,45 +2,45 @@
   "baseline": {
     "key": "baseline",
     "label": "Baseline (ChromaDB+MiniLM)",
-    "avg_faithfulness": 0.9800000000000001,
+    "avg_faithfulness": 0.9400000000000001,
     "avg_context_recall": 1.0,
-    "avg_context_precision": 0.8833333332852777,
-    "avg_retrieve_ms": 1081.3081741333008,
+    "avg_context_precision": 0.9833333332472222,
+    "avg_retrieve_ms": 1735.1540565490723,
     "per_question": [
       {
-        "question": "What are the symptoms of bacterial vaginosis?",
+        "question": "What are the symptoms of appendicitis?",
         "faithfulness": 1.0,
         "context_recall": 1.0,
         "context_precision": 0.9999999999,
-        "retrieve_ms": 1494.0359592437744
+        "retrieve_ms": 1931.8888187408447
+      },
+      {
+        "question": "What causes appendicitis?",
+        "faithfulness": 0.8,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "retrieve_ms": 1570.53804397583
+      },
+      {
+        "question": "What should I know about appendicitis and treating appendicitis?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "retrieve_ms": 1611.410140991211
       },
       {
         "question": "What causes varicose veins?",
         "faithfulness": 0.9,
         "context_recall": 1.0,
         "context_precision": 0.9166666666361111,
-        "retrieve_ms": 978.6279201507568
+        "retrieve_ms": 1808.521032333374
       },
       {
-        "question": "How can skin cancer (melanoma) be prevented?",
+        "question": "How can varicose veins be prevented?",
         "faithfulness": 1.0,
         "context_recall": 1.0,
-        "context_precision": 0.9166666666361111,
-        "retrieve_ms": 963.824987411499
-      },
-      {
-        "question": "What is it like to live with type 1 diabetes?",
-        "faithfulness": 1.0,
-        "context_recall": 1.0,
-        "context_precision": 0.7499999999625,
-        "retrieve_ms": 1034.8281860351562
-      },
-      {
-        "question": "What should I know about mrsa and how you get mrsa?",
-        "faithfulness": 1.0,
-        "context_recall": 1.0,
-        "context_precision": 0.8333333332916666,
-        "retrieve_ms": 935.2238178253174
+        "context_precision": 0.9999999999,
+        "retrieve_ms": 1753.4122467041016
       }
     ]
   },
@@ -48,134 +48,44 @@
     "key": "faiss",
     "label": "FAISS+MiniLM",
     "avg_faithfulness": 0.95,
-    "avg_context_recall": 1.0,
-    "avg_context_precision": 0.9833333332572222,
-    "avg_retrieve_ms": 1093.082571029663,
-    "per_question": [
-      {
-        "question": "What are the symptoms of bacterial vaginosis?",
-        "faithfulness": 1.0,
-        "context_recall": 1.0,
-        "context_precision": 0.9999999999,
-        "retrieve_ms": 1320.2760219573975
-      },
-      {
-        "question": "What causes varicose veins?",
-        "faithfulness": 0.75,
-        "context_recall": 1.0,
-        "context_precision": 0.99999999995,
-        "retrieve_ms": 1102.4487018585205
-      },
-      {
-        "question": "How can skin cancer (melanoma) be prevented?",
-        "faithfulness": 1.0,
-        "context_recall": 1.0,
-        "context_precision": 0.9166666666361111,
-        "retrieve_ms": 1059.575080871582
-      },
-      {
-        "question": "What is it like to live with type 1 diabetes?",
-        "faithfulness": 1.0,
-        "context_recall": 1.0,
-        "context_precision": 0.9999999999,
-        "retrieve_ms": 1023.1189727783203
-      },
-      {
-        "question": "What should I know about mrsa and how you get mrsa?",
-        "faithfulness": 1.0,
-        "context_recall": 1.0,
-        "context_precision": 0.9999999999,
-        "retrieve_ms": 959.9940776824951
-      }
-    ]
-  },
-  "mpnet": {
-    "key": "mpnet",
-    "label": "FAISS+MPNet",
-    "avg_faithfulness": 0.95,
-    "avg_context_recall": 1.0,
-    "avg_context_precision": 0.99999999992,
-    "avg_retrieve_ms": 1088.4862899780273,
-    "per_question": [
-      {
-        "question": "What are the symptoms of bacterial vaginosis?",
-        "faithfulness": 1.0,
-        "context_recall": 1.0,
-        "context_precision": 0.9999999999,
-        "retrieve_ms": 1358.60013961792
-      },
-      {
-        "question": "What causes varicose veins?",
-        "faithfulness": 0.75,
-        "context_recall": 1.0,
-        "context_precision": 0.99999999995,
-        "retrieve_ms": 1068.4750080108643
-      },
-      {
-        "question": "How can skin cancer (melanoma) be prevented?",
-        "faithfulness": 1.0,
-        "context_recall": 1.0,
-        "context_precision": 0.99999999995,
-        "retrieve_ms": 982.1398258209229
-      },
-      {
-        "question": "What is it like to live with type 1 diabetes?",
-        "faithfulness": 1.0,
-        "context_recall": 1.0,
-        "context_precision": 0.9999999999,
-        "retrieve_ms": 980.093240737915
-      },
-      {
-        "question": "What should I know about mrsa and how you get mrsa?",
-        "faithfulness": 1.0,
-        "context_recall": 1.0,
-        "context_precision": 0.9999999999,
-        "retrieve_ms": 1053.1232357025146
-      }
-    ]
-  },
-  "hybrid": {
-    "key": "hybrid",
-    "label": "Hybrid (BM25+Vector)",
-    "avg_faithfulness": 1.0,
     "avg_context_recall": 0.9818181818181818,
-    "avg_context_precision": 0.9999999999583334,
-    "avg_retrieve_ms": 1190.148639678955,
+    "avg_context_precision": 0.99999999991,
+    "avg_retrieve_ms": 2050.123119354248,
     "per_question": [
       {
-        "question": "What are the symptoms of bacterial vaginosis?",
+        "question": "What are the symptoms of appendicitis?",
         "faithfulness": 1.0,
         "context_recall": 1.0,
-        "context_precision": 0.99999999995,
-        "retrieve_ms": 1379.9753189086914
+        "context_precision": 0.9999999999,
+        "retrieve_ms": 2573.336601257324
+      },
+      {
+        "question": "What causes appendicitis?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "retrieve_ms": 1719.1767692565918
+      },
+      {
+        "question": "What should I know about appendicitis and treating appendicitis?",
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "retrieve_ms": 1658.0324172973633
       },
       {
         "question": "What causes varicose veins?",
-        "faithfulness": 1.0,
+        "faithfulness": 0.75,
         "context_recall": 0.9090909090909091,
-        "context_precision": 0.999999999975,
-        "retrieve_ms": 1125.9498596191406
-      },
-      {
-        "question": "How can skin cancer (melanoma) be prevented?",
-        "faithfulness": 1.0,
-        "context_recall": 1.0,
-        "context_precision": 0.9999999999666667,
-        "retrieve_ms": 1097.430944442749
-      },
-      {
-        "question": "What is it like to live with type 1 diabetes?",
-        "faithfulness": 1.0,
-        "context_recall": 1.0,
         "context_precision": 0.99999999995,
-        "retrieve_ms": 1240.468978881836
+        "retrieve_ms": 2237.8556728363037
       },
       {
-        "question": "What should I know about mrsa and how you get mrsa?",
+        "question": "How can varicose veins be prevented?",
         "faithfulness": 1.0,
         "context_recall": 1.0,
-        "context_precision": 0.99999999995,
-        "retrieve_ms": 1106.9180965423584
+        "context_precision": 0.9999999999,
+        "retrieve_ms": 2062.214136123657
       }
     ]
   }

@@ -1,8 +1,8 @@
 """
-Run all 4 improvement experiments in subprocesses, then evaluate with RAGAS.
-Baseline (ChromaDB), FAISS, FAISS+MPNet, Hybrid (BM25+Vector)
+Run ChromaDB and FAISS experiments in subprocesses, then evaluate with RAGAS.
+Baseline (ChromaDB), FAISS
 """
-import subprocess, json, sys, os, time
+import subprocess, json, sys, os
 import pandas as pd
 from dotenv import load_dotenv
 load_dotenv()
@@ -15,7 +15,7 @@ from ragas.dataset_schema import EvaluationDataset, SingleTurnSample
 from ragas.llms import LangchainLLMWrapper
 from ragas.embeddings import LangchainEmbeddingsWrapper
 
-EXPERIMENTS = ["baseline", "faiss", "mpnet", "hybrid"]
+EXPERIMENTS = ["baseline", "faiss"]
 GROQ_MODEL = "llama-3.3-70b-versatile"
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
@@ -118,6 +118,46 @@ def main():
                   f"{r['avg_context_precision']*100:>9.1f}% {r['avg_retrieve_ms']:>8.0f}ms")
     print(f"{'='*75}")
     print("\nSaved: improvements_ragas_results.json")
+
+    # --- Chart: ChromaDB vs FAISS Overall ---
+    if "baseline" in all_results and "faiss" in all_results:
+        import matplotlib
+        matplotlib.use("Agg")
+        import matplotlib.pyplot as plt
+        import numpy as np
+
+        c_chroma = "#4A90D9"
+        c_faiss  = "#2ECC71"
+
+        metrics = ["Faithfulness", "Context Recall", "Context Precision"]
+        chroma_vals = [
+            all_results["baseline"]["avg_faithfulness"] * 100,
+            all_results["baseline"]["avg_context_recall"] * 100,
+            all_results["baseline"]["avg_context_precision"] * 100,
+        ]
+        faiss_vals = [
+            all_results["faiss"]["avg_faithfulness"] * 100,
+            all_results["faiss"]["avg_context_recall"] * 100,
+            all_results["faiss"]["avg_context_precision"] * 100,
+        ]
+
+        x = np.arange(len(metrics))
+        w = 0.32
+        fig, ax = plt.subplots(figsize=(8, 5))
+        b1 = ax.bar(x - w/2, chroma_vals, w, label="ChromaDB", color=c_chroma)
+        b2 = ax.bar(x + w/2, faiss_vals,  w, label="FAISS",     color=c_faiss)
+        ax.set_ylabel("Score (%)")
+        ax.set_title("ChromaDB vs FAISS: RAGAS Evaluation", fontsize=13, fontweight="bold")
+        ax.set_xticks(x); ax.set_xticklabels(metrics)
+        ax.set_ylim(0, 115); ax.legend(); ax.grid(axis="y", alpha=0.3)
+        for b in b1:
+            ax.text(b.get_x() + b.get_width()/2, b.get_height() + 1.5, f"{b.get_height():.1f}%", ha="center", fontsize=9)
+        for b in b2:
+            ax.text(b.get_x() + b.get_width()/2, b.get_height() + 1.5, f"{b.get_height():.1f}%", ha="center", fontsize=9)
+        plt.tight_layout()
+        plt.savefig("chart_chroma_vs_faiss.png", dpi=150)
+        plt.close()
+        print("Saved: chart_chroma_vs_faiss.png")
 
 
 if __name__ == "__main__":

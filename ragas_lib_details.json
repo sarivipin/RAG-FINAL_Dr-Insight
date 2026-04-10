@@ -1,49 +1,169 @@
 {
   "overall": {
-    "faithfulness": 0.9466666666666667,
+    "faithfulness": 0.9519318181818182,
     "context_recall": 1.0,
-    "context_precision": 0.9333333332566667
+    "context_precision": 0.9708333332447914
   },
   "per_question": [
     {
-      "question": "What are the symptoms of bacterial vaginosis?",
-      "answer": "The symptoms of bacterial vaginosis are usually:\n\n- a change in the colour or texture of your normal vaginal discharge\n- an unusual smell coming from your vagina or discharge\n\nYour discharge may become more watery. It might also look grey.\n\nThe unusual smell is sometimes compared to the smell of raw fish.\n\nSource: https://www2.hse.ie/conditions/bacterial-vaginosis-pregnancy/#symptoms-of-bacterial-vaginosis",
-      "reference": "The symptoms of bacterial vaginosis are usually:\n\n- a change in the colour or texture of your normal vaginal discharge\n- an unusual smell coming from your vagina or discharge\n\nYour discharge may become more watery. It might also look grey.\n\nThe unusual smell is sometimes compared to the smell of raw fish.",
+      "question": "What are the symptoms of appendicitis?",
+      "answer": "Appendicitis usually starts with a pain in the middle of your tummy (abdomen) that may come and go. Within hours, the pain travels to the lower right-hand side of the body. This is where the appendix usually lies. The pain can become constant and severe.\n\nThings that may make the pain worse include:\n\n- pressing on the area\n- coughing\n- walking\n\nYou may lose your appetite, feel sick and have constipation or diarrhoea.\n\nSource links:\n- https://www2.hse.ie/conditions/appendicitis/#symptoms-of-appendicitis\n- https://www2.hse.ie/conditions/appendicitis/#whos-affected",
+      "reference": "Appendicitis usually starts with a pain in the middle of your tummy (abdomen) that may come and go.\n\nWithin hours, the pain travels to the lower right-hand side of the body. This is where the appendix usually lies. The pain can become constant and severe.\n\nThings that may make the pain worse include:\n\n- pressing on the area\n- coughing\n- walking\n\nYou may lose your appetite, feel sick and have constipation or diarrhoea.\n\nRead more about the symptoms of appendicitis",
+      "faithfulness": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
+    },
+    {
+      "question": "What causes appendicitis?",
+      "answer": "It's not clear what causes appendicitis. It may be that something blocks the entrance of the appendix, such as a small piece of poo, or an infection that causes the lymph node in the wall of the bowel to become swollen.\n\nSource:\nhttps://www2.hse.ie/conditions/appendicitis/#causes-of-appendicitis",
+      "reference": "It's not clear what causes appendicitis. It may be that something blocks the entrance of the appendix.\n\nFor example, it could be blocked by a small piece of poo. Sometimes an infection could cause the lymph node in the wall of the bowel to become swollen. The inflammation and swelling could lead to increased pressure in the appendix. This may then burst.\n\nAs the causes of appendicitis are not fully understood, there's no way of preventing it.",
+      "faithfulness": 0.8,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
+    },
+    {
+      "question": "What should I know about appendicitis and treating appendicitis?",
+      "answer": "**Appendicitis and Treating Appendicitis:**\n\nIf you have appendicitis, it's likely your appendix will need to be removed as soon as possible. The operation to remove your appendix is known as an appendicectomy or appendectomy. It's usually carried out as keyhole surgery, but open surgery may be used if the appendix has burst or access is more difficult.\n\n**Recovery Time:**\n\nIt usually takes a couple of weeks to make a full recovery after your appendix has been removed. Strenuous activities may need to be avoided for up to 6 weeks after having open surgery.\n\n**When to Get Medical Help:**\n\nIf abdominal pain is getting worse, contact your GP immediately.\n\n**Sources:**\n\n1. https://www2.hse.ie/conditions/appendicitis/#treating-appendicitis\n2. https://www2.hse.ie/conditions/appendicitis/#when-to-get-medical-help",
+      "reference": "If you have appendicitis, it's likely your appendix will need to be removed as soon as possible.\n\nRemoval of the appendix is one of the most common operations in Ireland and its success rate is excellent. The operation to remove your appendix is known as an appendicectomy or appendectomy.\n\nIt's usually carried out as keyhole surgery. Several small cuts are made in the tummy (abdomen). These allow special surgical instruments to be inserted.\n\nOpen surgery is usually used if the appendix has burst or access is more difficult. Open surgery is where a larger, single cut is made in the abdomen.\n\nIt usually takes a couple of weeks to make a full recovery after your appendix has been removed. Strenuous activities may need to be avoided for up to 6 weeks after having open surgery.\n\nRead more about treatment for appendicitis",
       "faithfulness": 1.0,
       "context_recall": 1.0,
       "context_precision": 0.9999999999
     },
     {
       "question": "What causes varicose veins?",
-      "answer": "Varicose veins develop when the small valves inside the veins stop working properly. In a healthy vein, blood flows smoothly to the heart. The blood is prevented from flowing backwards by a series of tiny valves that open and close to let blood through. If the valves weaken or are damaged, the blood can flow backwards and collect in the vein. This will eventually cause the vein to be swollen and enlarged (varicose).\n\nYour chances of developing varicose veins are increased if you:\n\n- are female\n- have a close family member with varicose veins\n- are older\n- are overweight\n- have a job that involves long periods of standing\n- are pregnant\n\nSource: https://www2.hse.ie/conditions/varicose-veins/#causes-of-varicose-veins",
+      "answer": "Varicose veins develop when the small valves inside the veins stop working properly. In a healthy vein, blood flows smoothly to the heart. The blood is prevented from flowing backwards by a series of tiny valves that open and close to let blood through. If the valves weaken or are damaged, the blood can flow backwards and collect in the vein. This will eventually cause the vein to be swollen and enlarged (varicose).\n\nYour chances of developing varicose veins are increased if you:\n\n- are female\n- have a close family member with varicose veins\n- are older\n- are overweight\n- have a job that involves long periods of standing\n- are pregnant\n\nSource:\nhttps://www2.hse.ie/conditions/varicose-veins/#causes-of-varicose-veins",
       "reference": "Varicose veins develop when the small valves inside the veins stop working properly.\n\nIn a healthy vein, blood flows smoothly to the heart. The blood is prevented from flowing backwards by a series of tiny valves that open and close to let blood through.\n\nIf the valves weaken or are damaged, the blood can flow backwards and collect in the vein. This will eventually cause the vein to be swollen and enlarged (varicose).\n\nYour chances of developing varicose veins are increased if you:\n\n- are female\n- have a close family member with varicose veins\n- are older\n- are overweight\n- have a job that involves long periods of standing\n- are pregnant\n\nRead more about the causes of varicose veins",
       "faithfulness": 1.0,
       "context_recall": 1.0,
       "context_precision": 0.9999999999
     },
     {
+      "question": "How can varicose veins be prevented?",
+      "answer": "There's little evidence to suggest you can stop varicose veins getting worse or prevent new ones developing. However, there are ways to ease symptoms of existing varicose veins, such as:\n\n- avoiding standing or sitting still for long periods and trying to move around every 30 minutes\n- taking regular breaks throughout the day, raising the legs on pillows while resting to ease discomfort\n- exercising regularly – this can improve circulation and help maintain a healthy weight\n\nSource:\nhttps://www2.hse.ie/conditions/varicose-veins/#preventing-varicose-veins",
+      "reference": "There's little evidence to suggest you can stop varicose veins getting worse or prevent new ones developing.\n\nBut there are ways to ease symptoms of existing varicose veins, such as:\n\n- avoiding standing or sitting still for long periods and trying to move around every 30 minutes\n- taking regular breaks throughout the day, raising the legs on pillows while resting to ease discomfort\n- exercising regularly – this can improve circulation and help maintain a healthy weight",
+      "faithfulness": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.99999999995
+    },
+    {
       "question": "How can skin cancer (melanoma) be prevented?",
-      "answer": "Melanoma is not always preventable, but you can reduce your chances of developing it by avoiding getting sunburnt. You can help protect yourself from the sun by:\n\n- covering up with a hat, clothing and sunglasses\n- staying in the shade, especially between 11am and 3pm\n- putting sunscreen on any skin that is not covered\n\nDo not use sunbeds, sunlamps or sunbathe.\n\nSource:\nhttps://www2.hse.ie/conditions/skin-cancer-melanoma/#preventing-melanoma",
+      "answer": "Melanoma is not always preventable, but you can reduce your chances of developing it by avoiding getting sunburnt. You can help protect yourself from the sun by:\n\n- covering up with a hat, clothing and sunglasses\n- staying in the shade, especially between 11am and 3pm\n- putting sunscreen on any skin that is not covered\n\nDo not use sunbeds, sunlamps or sunbathe.\n\nSource links:\n- https://www2.hse.ie/conditions/skin-cancer-melanoma/#preventing-melanoma\n- https://www2.hse.ie/conditions/skin-cancer-melanoma/#treating-melanoma\n- https://www2.hse.ie/conditions/skin-cancer-melanoma/#what-causes-melanoma\n- https://www2.hse.ie/conditions/skin-cancer-melanoma/#signs-and-symptoms-of-melanoma",
       "reference": "Melanoma is not always preventable, but you can reduce your chances of developing it by avoiding getting sunburnt.\n\nYou can help protect yourself from the sun by:\n\n- covering up with a hat, clothing and sunglasses\n- staying in the shade, especially between 11am and 3pm\n- putting sunscreen on any skin that is not covered\n\nDo not use sunbeds, sunlamps or sunbathe.\n\nPreventing melanoma",
       "faithfulness": 1.0,
       "context_recall": 1.0,
       "context_precision": 0.8333333332916666
     },
     {
+      "question": "What should I know about skin cancer (melanoma) and signs and symptoms of melanoma?",
+      "answer": "**What should I know about skin cancer (melanoma) and signs and symptoms of melanoma?**\n\nThe most common sign of melanoma is a new mole or a change in an existing mole. A mole may change shape, size or colour. It may stand out among other moles. Most melanomas are new moles.\n\nCheck your skin every few months for new moles or changes in existing moles. Spot any changes using the ABCDE of moles.\n\nSymptoms of melanoma include:\n\n- A new mole or a change in an existing mole\n- A mole that changes shape, size or colour\n- A mole that stands out among other moles\n\n**Incomplete answer:** This answer only provides information on the signs and symptoms of melanoma. For more information on causes, treatment, and types of melanoma, please refer to the provided documents.\n\n**Sources:**\n\n1. https://www2.hse.ie/conditions/skin-cancer-melanoma/#signs-and-symptoms-of-melanoma\n2. https://www2.hse.ie/conditions/skin-cancer-melanoma/#what-causes-melanoma\n3. https://www2.hse.ie/conditions/skin-cancer-melanoma/#treating-melanoma\n4. https://www2.hse.ie/conditions/skin-cancer-melanoma/#types-of-melanoma",
+      "reference": "The most common sign of melanoma is a new mole or a change in an existing mole. A mole may change shape, size or colour. It may stand out among other moles.\n\nMost melanomas are new moles.\n\nCheck your skin every few months for new moles or changes in existing moles. Spot any changes using the ABCDE of moles .\n\nSymptoms of melanoma",
+      "faithfulness": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
+    },
+    {
       "question": "What is it like to live with type 1 diabetes?",
-      "answer": "Unfortunately, the provided context does not directly answer the question \"What is it like to live with type 1 diabetes?\".\n\nHowever, based on the available information, it seems that the context is focused on providing advice and information on managing type 1 diabetes, such as avoiding complications, managing blood glucose levels, understanding insulin, and accessing courses and support.\n\nTo answer the question, it would be necessary to consult additional sources or context that specifically addresses the experience of living with type 1 diabetes.\n\nSource links used:\n- https://www2.hse.ie/conditions/type-1-diabetes/#living-with-type-1-diabetes\n- https://www2.hse.ie/conditions/type-1-diabetes/#managing-blood-glucose-levels\n- https://www2.hse.ie/conditions/type-1-diabetes/#about-insulin\n- https://www2.hse.ie/conditions/type-1-diabetes/#courses-and-support",
+      "answer": "Unfortunately, the provided context does not directly answer the question \"What is it like to live with type 1 diabetes?\" as it only provides information on avoiding complications, managing blood glucose levels, insulin, and courses and support.\n\nHowever, based on the information provided in the documents, living with type 1 diabetes involves managing blood glucose levels, injecting insulin, and being aware of potential complications. It also involves seeking courses and support to manage the condition effectively.\n\nSource links:\n- https://www2.hse.ie/conditions/type-1-diabetes/#living-with-type-1-diabetes\n- https://www2.hse.ie/conditions/type-1-diabetes/#managing-blood-glucose-levels\n- https://www2.hse.ie/conditions/type-1-diabetes/#about-insulin\n- https://www2.hse.ie/conditions/type-1-diabetes/#courses-and-support",
       "reference": "Advice on avoiding complications of type 1 diabetes",
-      "faithfulness": 0.8333333333333334,
+      "faithfulness": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
+    },
+    {
+      "question": "What should I know about type 1 diabetes and managing blood glucose levels?",
+      "answer": "You should know about hypers and hypos, including what to do if your blood glucose levels are too high or low. Counting carbohydrates helps you manage your blood glucose levels. Devices and monitors can help you manage type 1 diabetes. Learn about insulin, when to inject it, and how to store it.\n\nIncomplete answer: No\n\nSource links:\n1. https://www2.hse.ie/conditions/type-1-diabetes/#managing-blood-glucose-levels\n2. https://www2.hse.ie/conditions/type-1-diabetes/#counting-carbohydrates\n3. https://www2.hse.ie/conditions/type-1-diabetes/#diabetes-technology\n4. https://www2.hse.ie/conditions/type-1-diabetes/#about-insulin",
+      "reference": "Hypers and hypos, including what to do if your blood glucose levels are too high or low",
+      "faithfulness": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
+    },
+    {
+      "question": "What is the treatment for type 2 diabetes?",
+      "answer": "The treatment for type 2 diabetes is not explicitly stated in the provided context. However, Document 1 mentions \"Learn about the treatments that work for type 2 diabetes\" but does not provide further information.\n\nSource links used:\n- https://www2.hse.ie/conditions/type-2-diabetes/#treatment\n- https://www2.hse.ie/conditions/type-2-diabetes/#living-with-type-2-diabetes\n- https://www2.hse.ie/conditions/type-2-diabetes/#managing-blood-glucose-levels\n- https://www2.hse.ie/conditions/type-2-diabetes/#about-type-2-diabetes",
+      "reference": "Learn about the treatments that work for type 2 diabetes",
+      "faithfulness": 1.0,
       "context_recall": 1.0,
       "context_precision": 0.9999999999
     },
     {
       "question": "What should I know about mrsa and how you get mrsa?",
-      "answer": "MRSA is a common bug, especially for people who spend a lot of time in hospital. This is because lots of people carry superbugs in hospital, making it easier for them to spread. There's often no way of knowing when or where you picked it up.\n\nMRSA can live harmlessly on skin, in the nose, in wounds, and in leg ulcers. If they do not cause infection, bacteria can go away within days or months without you noticing. It can also grow under skin, leading to a skin, fat, or muscle infection.\n\nYou can get MRSA through:\n\n- Being in hospital or spending a lot of time in hospital\n- Being in close contact with someone who has MRSA\n- Touching surfaces or objects that have MRSA on them\n\nIf you know you carry MRSA, you should tell the doctor when you make an appointment and when you get to the surgery or hospital. You might need to stay in your own room or a ward with people who carry MRSA.\n\nMRSA is less likely to harm people who are well enough to be at home. You do not need to limit contact with anyone, and you also do not need to tell friends or family that you have MRSA.\n\nSource links:\n- https://www2.hse.ie/conditions/mrsa/#how-you-get-mrsa\n- https://www2.hse.ie/conditions/mrsa/#if-you-know-you-carry-mrsa",
+      "answer": "MRSA is a common bug, especially for people who spend a lot of time in hospital. This is because lots of people carry superbugs in hospital, making it easier for them to spread. There's often no way of knowing when or where you picked it up.\n\nMRSA can live harmlessly on skin, in the nose, in wounds, and in leg ulcers. If they do not cause infection, bacteria can go away within days or months without you noticing. It can also grow under skin, leading to a skin, fat, or muscle infection.\n\nYou can get MRSA through:\n\n- Being in a hospital or healthcare setting where people carry the bacteria\n- Being in close contact with someone who has MRSA\n- Touching surfaces or objects that have MRSA bacteria on them\n\nTo diagnose MRSA, a doctor or nurse may take samples from your skin, nose, and other parts of the body, which are then sent to a lab for testing.\n\nIf you know you carry MRSA, you should tell the doctor when you make an appointment and when you get to the surgery or hospital. You might need to stay in your own room or a ward with people who carry MRSA.\n\nTreatment for MRSA usually involves washing with antibacterial shampoo and putting antibacterial cream in your nose. If you have an MRSA infection, you can be treated with antibiotics.\n\n**Source:**\n- https://www2.hse.ie/conditions/mrsa/#how-you-get-mrsa\n- https://www2.hse.ie/conditions/mrsa/#diagnosing-mrsa\n- https://www2.hse.ie/conditions/mrsa/#if-you-know-you-carry-mrsa\n- https://www2.hse.ie/conditions/mrsa/#treatment-of-mrsa",
       "reference": "MRSA is a common bug, especially for people who spend a lot of time in hospital. This is because lots of people carry superbugs in hospital. This makes it easier for them to spread.\n\nThere's often no way of knowing when or where you picked it up.\n\nMRSA can live harmlessly:\n\n- on skin\n- in the nose\n- in wounds\n- in leg ulcers\n\nIf they do not cause infection, bacteria can go away within days or months without you noticing. It can also grow under skin. This can lead to a skin, fat or muscle infection.",
-      "faithfulness": 0.9,
+      "faithfulness": 0.8636363636363636,
       "context_recall": 1.0,
       "context_precision": 0.8333333332916666
+    },
+    {
+      "question": "What are the symptoms of mrsa?",
+      "answer": "Symptoms of serious MRSA infection include:\n\n- a high temperature (fever) of 38 degrees Celsius or above\n- aches and pains\n- chills\n- tiredness\n- weakness\n- confusion\n\nIf MRSA grow under the skin, this can lead to a skin, fat or muscle infection.\n\nSymptoms include:\n\n- redness\n- swelling\n- warmth\n- pain and sometimes pus from the skin\n\nSource:\nhttps://www2.hse.ie/conditions/mrsa/#symptoms-of-mrsa-infection",
+      "reference": "Symptoms of serious MRSA infection include:\n\n- a high temperature (fever) of 38 degrees Celsius or above\n- aches and pains\n- chills\n- tiredness\n- weakness\n- confusion\n\nIf MRSA grow under the skin, this can lead to a skin, fat or muscle infection.\n\nSymptoms include:\n\n- redness\n- swelling\n- warmth\n- pain and sometimes pus from the skin",
+      "faithfulness": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
+    },
+    {
+      "question": "How can mrsa be prevented?",
+      "answer": "MRSA can be prevented by:\n\n- cleaning your hands often\n- using your own soap, flannel, sponge and razor\n- keeping your fingernails cut short to stop bacteria from building up under your nails\n- limiting contact with patients and keeping away from their bed space if you are in hospital\n- avoiding sharing food, newspapers or other personal items with patients\n- telling staff if facilities in a hospital or clinic are not clean\n\n**Source:** https://www2.hse.ie/conditions/mrsa/#preventing-the-spread-of-mrsa",
+      "reference": "Lower the risk of picking up and spreading MRSA in hospitals by:\n\n- cleaning your hands often\n- using your own soap, flannel, sponge and razor\n- keeping your fingernails cut short to stop bacteria from building up under your nails\n\nIf you are in hospital:\n\n- limit contact with patients and keep away from their bed space\n- avoid sharing food, newspapers or other personal items with patients\n- tell staff if facilities in a hospital or clinic are not clean",
+      "faithfulness": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.7499999999625
+    },
+    {
+      "question": "What causes migraine?",
+      "answer": "We do not know the exact causes of migraine, but they may include:\n\n- temporary changes in the chemicals, nerves and blood vessels in the brain\n- your genes - around half of people who have migraine have a close relative with the condition\n- stress\n\nSource links:\n- https://www2.hse.ie/conditions/migraine/#causes-of-migraine\n- https://www2.hse.ie/conditions/migraine/#migraine-and-stigma\n- https://www2.hse.ie/conditions/migraine/#complications-of-migraine\n- https://www2.hse.ie/conditions/migraine/#check-if-its-migraine",
+      "reference": "Migraine is a common condition. It affects around 1 in 5 women and around 1 in 15 men. It usually begins in early adulthood.\n\nWe do not know the exact causes of migraine, but they may include:\n\n- temporary changes in the chemicals, nerves and blood vessels in the brain\n- your genes - around half of people who have migraine have a close relative with the condition\n\nSome people with migraine find certain things can trigger a migraine attack. For example, stress.\n\nCauses of migraine and common triggers",
+      "faithfulness": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
+    },
+    {
+      "question": "How can migraine be prevented?",
+      "answer": "To help prevent migraine attacks:\n\n- avoid any triggers you can identify\n- stick to a sleep routine - tips for sleep problems\n- eat a healthy, balanced diet and do not skip meals\n- be active\n- stay hydrated\n- limit your intake of caffeine and alcohol\n\nYour GP may also prescribe medicines, such as:\n\n- anti-seizure medicine (topiramate)\n- high blood pressure medicine (propranolol)\n\nIt may take several weeks before symptoms improve.\n\nSource links:\n1. https://www2.hse.ie/conditions/migraine/#preventing-migraine-attacks\n2. https://www2.hse.ie/conditions/migraine/#treating-migraine\n3. https://www2.hse.ie/conditions/migraine/#outlook-for-migraine\n4. https://www2.hse.ie/conditions/migraine/#complications-of-migraine",
+      "reference": "To help prevent migraine attacks:\n\n- avoid any triggers you can identify\n- stick to a sleep routine - tips for sleep problems\n- eat a healthy, balanced diet and do not skip meals\n- be active\n- stay hydrated\n- limit your intake of caffeine and alcohol\n\nYour GP may also prescribe medicines, such as:\n\n- anti-seizure medicine (topiramate)\n- high blood pressure medicine (propranolol)\n\nIt may take several weeks before symptoms improve.",
+      "faithfulness": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
+    },
+    {
+      "question": "What should I know about migraine and treating migraine?",
+      "answer": "**What should I know about migraine and treating migraine?**\n\nThere is no cure for migraine, but treatment can help reduce symptoms. Medicines include painkillers (such as paracetamol and ibuprofen), triptans, and anti-sickness medicines. Try not to use the maximum dosage of painkillers more than 2 days a week. During a migraine attack, it may help to sleep or lie in a dark room, drink enough water, and use cold packs or heat packs.\n\n**Source:** https://www2.hse.ie/conditions/migraine/#treating-migraine",
+      "reference": "There is no cure for migraine. But treatment can help to reduce the symptoms.\n\nMedicines include:\n\n- painkillers - including medicines you can buy without a prescription, such as paracetamol and ibuprofen\n- triptans - these help reverse changes in the brain linked to migraine\n- anti-sickness medicines (anti-emetics) - to relieve feeling sick (nausea) or vomiting\n\nTry not to use the maximum dosage of painkillers more than 2 days a week. This could make it harder to treat headaches over time.\n\nDuring a migraine attack, it may help to:\n\n- sleep or lie in a dark room\n- drink enough water\n- use cold packs or heat packs\n\nMigraine treatment and prevention",
+      "faithfulness": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
+    },
+    {
+      "question": "What causes high blood pressure (hypertension)?",
+      "answer": "In most cases, it's not clear exactly what causes high blood pressure. However, factors that can raise your risk of developing high blood pressure include:\n\n- age – the risk of developing high blood pressure increases as you get older\n- a family history of high blood pressure\n- a high amount of salt in your food\n- lack of exercise\n- being overweight\n- regularly drinking large amounts of alcohol\n- eating a lot of liquorice\n- smoking\n- long-term sleep deprivation or obstructive sleep apnoea\n\nIn about 1 in 20 cases, high blood pressure happens as the result of an underlying health condition or taking a certain medicine.\n\nSource:\nhttps://www2.hse.ie/conditions/high-blood-pressure-hypertension/#causes-of-high-blood-pressure",
+      "reference": "In most cases, it's not clear exactly what causes high blood pressure.\n\nFactors that can raise your risk of developing high blood pressure include:\n\n- age – the risk of developing high blood pressure increases as you get older\n- a family history of high blood pressure\n- a high amount of salt in your food\n- lack of exercise\n- being overweight\n- regularly drinking large amounts of alcohol\n- eating a lot of liquorice\n- smoking\n- long-term sleep deprivation or obstructive sleep apnoea\n\nIn about 1 in 20 cases, high blood pressure happens as the result of an underlying health condition or taking a certain medicine.",
+      "faithfulness": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
+    },
+    {
+      "question": "How can high blood pressure (hypertension) be prevented?",
+      "answer": "High blood pressure (hypertension) can be prevented by making lifestyle changes such as:\n\n- cutting your salt intake to less than 6g (0.2oz) a day (about 1 teaspoonful)\n- eating a low-fat, balanced diet - include plenty of fresh fruit and vegetables\n- being active\n- cutting down on alcohol\n- losing weight – find out what your ideal weight is using the BMI healthy weight calculator\n- drinking less caffeine – found in coffee, tea and cola\n- stop smoking\n- getting at least 6 hours of sleep a night\n\nThese changes can be made straight away, even if you're already taking blood pressure medicines. Making these changes early on may be able to avoid needing medicines.\n\nSource:\nhttps://www2.hse.ie/conditions/high-blood-pressure-hypertension/#preventing-and-reducing-high-blood-pressure",
+      "reference": "There are changes you can make to your lifestyle to prevent and reduce high blood pressure.\n\nSome of these will lower your blood pressure in a matter of weeks, while others may take longer.\n\nTry to:\n\n- cut your salt intake to less than 6g (0.2oz) a day (about 1 teaspoonful)\n- eat a low-fat, balanced diet - include plenty of fresh fruit and vegetables\n- be active\n- cut down on alcohol\n- lose weight – find out what your ideal weight is using the BMI healthy weight calculator\n- drink less caffeine – found in coffee, tea and cola\n- stop smoking\n- get at least 6 hours of sleep a night\n\nYou can make these changes straight away, even if you're already taking blood pressure medicines.\n\nMake these changes early on and you may be able to avoid needing medicines.",
+      "faithfulness": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
+    },
+    {
+      "question": "What are the symptoms of stroke?",
+      "answer": "You can recognise a stroke and know what to do by using the word FAST.\n\nF - Face: Ask the person to smile. Does one side of their face droop?\nA - Arm: Ask the person to raise both arms. Does one arm drift downward?\nS - Speech: Ask the person to repeat a simple sentence. Is their speech slurred or difficult to understand?\nT - Time: Time is of the essence. If you observe any of these signs, call for emergency medical services immediately.\n\nSource links:\n- https://www2.hse.ie/conditions/stroke/#symptoms-of-a-stroke\n- https://www2.hse.ie/conditions/stroke/#causes-of-a-stroke",
+      "reference": "You can recognise a stroke and know what to do by using the word FAST.",
+      "faithfulness": 0.375,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
+    },
+    {
+      "question": "What causes kidney stones?",
+      "answer": "Waste products in the blood can form crystals that collect inside the kidneys. Over time, the crystals may build up to form a hard stone-like lump. This is more likely to happen if you:\n\n- do not drink enough fluids\n- take certain types of medicines\n- have a condition that raises the levels of certain substances in your pee\n\nSource:\nhttps://www2.hse.ie/conditions/kidney-stones/#causes-of-kidney-stones",
+      "reference": "Waste products in the blood can form crystals that collect inside the kidneys. Over time, the crystals may build up to form a hard stone-like lump.\n\nThis is more likely to happen if you:\n\n- do not drink enough fluids\n- take certain types of medicines\n- have a condition that raises the levels of certain substances in your pee\n\nCauses of kidney stones",
+      "faithfulness": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
     }
   ]
 }

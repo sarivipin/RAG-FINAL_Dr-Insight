@@ -28,7 +28,7 @@ DOCS_PATH = "docs"
 RESULTS_CSV = "ragas_lib_results.csv"
 DETAILS_JSON = "ragas_lib_details.json"
 
-MAX_QUESTIONS = 5
+MAX_QUESTIONS = 20
 GROQ_MODEL = "llama-3.3-70b-versatile"
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 

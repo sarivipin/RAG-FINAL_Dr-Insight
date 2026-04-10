@@ -1,6 +1,6 @@
 question,ollama_faithfulness,groq_faithfulness,ollama_context_recall,groq_context_recall,ollama_bleu,groq_bleu
-What are the symptoms of bacterial vaginosis?,1.0,1.0,1.0,1.0,0.9107142857142857,0.8679245283018868
-What causes varicose veins?,1.0,1.0,1.0,1.0,0.459016393442623,0.36065573770491804
-How can skin cancer (melanoma) be prevented?,1.0,1.0,1.0,1.0,0.7846153846153846,0.9692307692307692
-What is it like to live with type 1 diabetes?,0.8,1.0,1.0,1.0,0.09615384615384616,0.2
-What should I know about mrsa and how you get mrsa?,0.6,1.0,1.0,1.0,0.3424657534246575,0.7857142857142858
+What are the symptoms of bacterial vaginosis?,0.8,1.0,1.0,1.0,0.9107142857142857,0.7160493827160493
+What causes varicose veins?,1.0,1.0,1.0,1.0,0.22950819672131145,0.5324675324675324
+How can skin cancer (melanoma) be prevented?,1.0,1.0,1.0,1.0,0.7638888888888888,0.6028368794326241
+What is it like to live with type 1 diabetes?,0.8,1.0,1.0,1.0,0.0759493670886076,0.3688524590163934
+What should I know about mrsa and how you get mrsa?,0.4,1.0,1.0,1.0,0.3611111111111111,0.9230769230769231
