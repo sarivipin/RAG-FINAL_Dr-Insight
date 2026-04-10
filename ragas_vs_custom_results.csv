@@ -1,6 +1,0 @@
-question,ragas_faithfulness,custom_faithfulness,ragas_context_recall,custom_context_recall,ragas_context_precision,custom_bleu
-What are the symptoms of bacterial vaginosis?,1.0,0.8,1.0,0.4,0.9999999999,0.9107142857142856
-What causes varicose veins?,1.0,0.8,1.0,0.4,0.9999999999,0.459016393442623
-How can skin cancer (melanoma) be prevented?,0.9090909090909091,0.33,1.0,0.4,0.8333333332916666,0.7846153846153846
-What is it like to live with type 1 diabetes?,0.7142857142857143,0.5,1.0,0.33,0.9999999999,0.0961538461538461
-What should I know about mrsa and how you get mrsa?,1.0,0.4,1.0,0.4,0.8333333332916666,0.3424657534246575
